@@ -1,0 +1,251 @@
+{
+  "slug": "metodo",
+  "num": 5,
+  "menu": "Método",
+  "titulo": "Dónde está el dinero: el software se volvió commodity, el método no",
+  "titulo_curto": "Método > software",
+  "minutos": 16,
+  "lead": "Hoy un agente hace ingeniería inversa de casi cualquier software, y una automatización sale en minutos. Vender eso suelto se volvió barato. Lo que se repite y vale es el método: captación, gestión y administrativo conectados, documentados y empaquetados para aplicar en cualquier negocio.",
+  "objetivo": "documentar las piezas de tu método de captación y escribir el paso a paso de una de ellas para repetirlo en otro negocio.",
+  "competencias": [
+    "mapear-negocio-em-tres-blocos",
+    "empacotar-metodo",
+    "documentar-runbook"
+  ],
+  "aprende": [
+    {
+      "icone": "camadas",
+      "t": "Los tres bloques de un negocio: captación, gestión, administrativo"
+    },
+    {
+      "icone": "alvo",
+      "t": "Encontrar el cuello de botella de verdad"
+    },
+    {
+      "icone": "lista",
+      "t": "Las piezas de un método de captación"
+    },
+    {
+      "icone": "arquivo",
+      "t": "Empaquetar y documentar: lo haces una vez, lo aplicas siempre"
+    }
+  ],
+  "hero_alt": "Cuaderno de tapa oscura abierto con un diagrama de flujo dibujado a mano, bolígrafo al lado.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Un negocio en tres bloques",
+      "sub": "Haz clic en cada bloque. El cuello de botella casi siempre está en el primero.",
+      "nos": [
+        {
+          "icone": "megafone",
+          "titulo": "Captación",
+          "sub": "Traer clientes",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "alvo",
+              "t": "Anuncio y landing"
+            },
+            {
+              "icone": "lista",
+              "t": "CRM y llamada"
+            }
+          ],
+          "detalhe": "Aquí es donde la mayoría no tiene método. La plataforma de gestión se ve genial, pero nadie sabe decir de dónde viene el próximo cliente."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Gestión",
+          "sub": "Entregar",
+          "itens": [
+            {
+              "icone": "check",
+              "t": "Rutina automática"
+            },
+            {
+              "icone": "robo",
+              "t": "Agente de soporte"
+            }
+          ],
+          "detalhe": "Ejemplo de gestión resuelta: el inmueble entra solo a los portales, el inquilino recibe las reglas al llegar, el técnico de mantenimiento manda la foto por la app y el panel la valida. Con las reglas escritas, un agente se encarga del soporte."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Administrativo",
+          "sub": "Cobrar y contabilizar",
+          "itens": [
+            {
+              "icone": "arquivo",
+              "t": "Cobro y factura"
+            },
+            {
+              "icone": "pasta",
+              "t": "Contabilidad"
+            }
+          ],
+          "detalhe": "Cobro, factura y contabilidad conectados al sistema de gestión. Usa un sistema de contabilidad ya hecho y conéctalo; no construyas uno propio."
+        }
+      ],
+      "volta": "Con la gestión y lo administrativo resueltos, quedas libre para ocuparte de la captación",
+      "legenda": "No crees un producto por crearlo: apóyate en herramientas ya hechas (CRM, contabilidad) y gasta tu esfuerzo en el método."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Del software al método",
+      "sub": "Cuatro ideas.",
+      "passos": [
+        {
+          "titulo": "Commodity",
+          "sub": "Lo que se abarató",
+          "texto": [
+            "Una automatización suelta sale en minutos con un agente. El software se puede clonar con ingeniería inversa.",
+            "Si tu producto es solo eso, el precio va a bajar."
+          ]
+        },
+        {
+          "titulo": "Palanca",
+          "sub": "Usa lo que ya existe",
+          "texto": [
+            "Para CRM, contabilidad y agenda, ya hay herramientas hechas. Conéctalas y personalízalas.",
+            "Construir tu propio CRM te quita meses que deberían ir a la captación."
+          ]
+        },
+        {
+          "titulo": "Método",
+          "sub": "Lo que vale",
+          "texto": [
+            "El método es la secuencia de piezas que aplicas de la misma forma en cualquier negocio: inmobiliaria, clínica, oficina.",
+            "Un método de captación bien armado funciona igual en negocios distintos. Cambia el ángulo; la estructura se queda."
+          ]
+        },
+        {
+          "titulo": "Paquete",
+          "sub": "Hazlo una vez",
+          "texto": [
+            "Cada pieza tiene un paso a paso escrito (runbook) y, cuando se pueda, una skill o plantilla lista para el agente.",
+            "Al final, un agente verificador comprueba que todas las piezas estén activas."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "La lista es un punto de partida. Tu método tendrá tus propias piezas.",
+      "blocos": [
+        {
+          "rot": "METODO.md · piezas de la captación",
+          "icone": "lista",
+          "conteudo": "# Método de captación · <nombre de tu método>\n\nANUNCIO Y PÁGINA\n[ ] 1. ángulos definidos (3 como mínimo), cada uno con el dolor del cliente\n[ ] 2. anuncios estáticos por ángulo, en cada formato\n[ ] 3. landing con el texto que cambia según el ángulo (utm_content)\n[ ] 4. UTMs y URLs generadas por regla, nunca a mano\n\nCRM\n[ ] 5. landing conectada al CRM, siempre con los mismos campos personalizados\n[ ] 6. oportunidades que avanzan de etapa solas según los eventos\n[ ] 7. eventos de conversión devueltos a la plataforma de anuncios\n[ ] 8. asistente de atención que abre la conversación en el mismo ángulo\n\nVENTA\n[ ] 9. agendamiento de la llamada directo en la agenda del vendedor\n[ ] 10. evaluador de llamadas (nota y motivo por llamada)\n[ ] 11. playbook de ventas que se actualiza con las mejores llamadas\n\nCONTROL\n[ ] 12. agente que mide qué ángulos funcionan\n[ ] 13. agente verificador: ¿todas las piezas activas?\n\nCada pieza tiene su runbook en runbooks/<peça>.md"
+        },
+        {
+          "rot": "runbooks/[pieza].md",
+          "icone": "arquivo",
+          "conteudo": "# Runbook · <nombre de la pieza>\n\nPARA QUÉ SIRVE: <una línea>\nENTRADA: <qué debe existir antes>\nSALIDA: <qué existe después, y dónde>\n\nPASO A PASO\n1. <paso>\n2. <paso>\n3. <paso>\n\nCÓMO COMPROBAR: <qué mirar para saber que funcionó>\nERRORES YA VISTOS: <fecha · qué salió mal · cómo evitarlo>"
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Piensa en el negocio que atiendes o quieres atender.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Dónde está el cuello de botella",
+          "min": "10 min",
+          "texto": "Escribe los tres bloques del negocio (captación, gestión, administrativo) y ponle una nota de 0 a 10 a qué tan organizado está cada uno.",
+          "pronto": "listo cuando tienes las tres notas y sabes decir qué bloque es el cuello de botella."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · METODO.md",
+          "min": "40 min",
+          "texto": "Copia la lista de piezas, quita lo que no sirve, agrega lo que es tuyo y marca lo que ya existe.",
+          "pronto": "el METODO.md tiene al menos 8 piezas, cada una marcada como existe o falta."
+        },
+        {
+          "id": "e3",
+          "titulo": "3 · Un runbook",
+          "min": "30 min",
+          "texto": "Elige una pieza que ya haces y escribe su runbook con la plantilla.",
+          "pronto": "el runbook tiene entrada, salida, al menos 3 pasos y \"cómo verificar\"."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas.",
+      "perguntas": [
+        {
+          "p": "Un cliente tiene una plataforma de gestión excelente, pero factura poco. ¿Dónde miras primero?",
+          "opcoes": [
+            "En la propia plataforma, para mejorar las pantallas y los reportes",
+            "En la contabilidad, para recortar costos",
+            "En la captación: de dónde viene el próximo cliente"
+          ],
+          "certa": 2,
+          "ref": "diagrama",
+          "explica": "Una buena gestión sin clientes entrando no factura. El cuello de botella común es la falta de un método de captación, no la herramienta."
+        },
+        {
+          "p": "¿Vale la pena construir un CRM propio para tu método?",
+          "opcoes": [
+            "Sí, para tener control total del código y no depender de nadie",
+            "No: usa uno listo y dedica el esfuerzo al método",
+            "Sí, porque un CRM listo no se conecta con nada"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Un CRM y una contabilidad listos se conectan y se personalizan. Lo que te diferencia es la secuencia de piezas, no el software que hay debajo."
+        },
+        {
+          "p": "¿Qué hace que una pieza del método sea repetible en otro negocio?",
+          "opcoes": [
+            "Un runbook escrito, con el paso de cómo verificar",
+            "La memoria de quien lo hizo la primera vez",
+            "Un video largo explicando el caso"
+          ],
+          "certa": 0,
+          "ref": "codigo",
+          "explica": "Escrito, con entrada, salida, pasos y verificación, cualquier persona o agente lo rehace. La memoria se va y un video largo nadie lo sigue paso a paso."
+        },
+        {
+          "p": "¿Para qué sirve el agente verificador al final del método?",
+          "opcoes": [
+            "Para crear anuncios nuevos todos los días sin que tú intervengas",
+            "Para comprobar que todas las piezas estén activas",
+            "Para reemplazar al vendedor en las llamadas"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Un método con trece piezas se rompe en silencio (un UTM equivocado, un campo que desapareció). El verificador avisa antes de que la campaña pierda dinero."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Tres bloques",
+          "texto": "Captación, gestión, administrativo. El cuello de botella suele ser la captación."
+        },
+        {
+          "t": "Usa lo que ya existe",
+          "texto": "CRM y contabilidad listos, conectados."
+        },
+        {
+          "t": "El método es el activo",
+          "texto": "Las mismas piezas, en cualquier negocio; cambia el ángulo."
+        },
+        {
+          "t": "Empaqueta",
+          "texto": "Un runbook por pieza y un verificador al final."
+        }
+      ]
+    }
+  ]
+}

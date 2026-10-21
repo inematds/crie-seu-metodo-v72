@@ -1,0 +1,330 @@
+{
+  "slug": "assistente",
+  "num": 2,
+  "menu": "Assistant",
+  "titulo": "The assistant in chat: a meeting becomes a task, a purchase waits for your \"Confirm\"",
+  "titulo_curto": "Assistant in chat",
+  "minutos": 15,
+  "lead": "An assistant that only talks helps very little. What changes your day is an assistant that pulls the task out of the meeting, puts it in the right quadrant of the matrix, attaches the document and prepares the action with a button. In this lesson you set up that routine and understand Google's \"unverified app\" warning.",
+  "objetivo": "set up the assistant to turn meetings and emails into classified tasks and to act only after your \"Confirm\".",
+  "competencias": [
+    "triar-tarefas-com-ia",
+    "desenhar-acao-com-confirmacao",
+    "entender-verificacao-google"
+  ],
+  "aprende": [
+    {
+      "icone": "chat",
+      "t": "Why a chat with buttons helps more than a text-only chat"
+    },
+    {
+      "icone": "lista",
+      "t": "From the meeting to the task in the right quadrant, with an attachment"
+    },
+    {
+      "icone": "portao",
+      "t": "Actions with a confirm button: purchase, sending, calendar"
+    },
+    {
+      "icone": "escudo",
+      "t": "What triggers Google's unverified app warning"
+    }
+  ],
+  "hero_alt": "A phone on a table showing a conversation with confirm buttons, next to a notebook.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "From request to action",
+      "sub": "Tap each step.",
+      "nos": [
+        {
+          "icone": "chat",
+          "titulo": "Input",
+          "sub": "Meeting, email",
+          "itens": [
+            {
+              "icone": "arquivo",
+              "t": "Meeting summary"
+            },
+            {
+              "icone": "enviar",
+              "t": "Incoming email"
+            },
+            {
+              "icone": "megafone",
+              "t": "Your audio"
+            }
+          ],
+          "detalhe": "Everything that creates work comes in through the same assistant: the meeting summary, the email that asks for something, the audio you send while walking."
+        },
+        {
+          "icone": "robo",
+          "titulo": "Assistant",
+          "sub": "Triage",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "lista",
+              "t": "Pulls out the task"
+            },
+            {
+              "icone": "alvo",
+              "t": "Puts it in the quadrant"
+            },
+            {
+              "icone": "pasta",
+              "t": "Attaches the document"
+            }
+          ],
+          "detalhe": "The assistant identifies the task, decides the matrix quadrant with a one-line reason, and attaches the file you will need."
+        },
+        {
+          "icone": "portao",
+          "titulo": "Button",
+          "sub": "You confirm",
+          "itens": [
+            {
+              "icone": "check",
+              "t": "Confirm"
+            },
+            {
+              "icone": "x",
+              "t": "Cancel"
+            }
+          ],
+          "detalhe": "Every action that spends money, sends something out or touches someone else's calendar stops at a button. You read it and confirm."
+        },
+        {
+          "icone": "check",
+          "titulo": "Action",
+          "sub": "Done and logged",
+          "itens": [
+            {
+              "icone": "calendario",
+              "t": "Task on the calendar"
+            },
+            {
+              "icone": "lista",
+              "t": "Log of what it did"
+            }
+          ],
+          "detalhe": "After your yes, the assistant carries it out and leaves a short log: what it did, when, with which file."
+        }
+      ],
+      "legenda": "Chats with buttons and small pages inside the conversation (like Telegram's mini apps) let you decide with one tap, without leaving the chat."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Setting up the routine",
+      "sub": "Four steps.",
+      "passos": [
+        {
+          "titulo": "Channel",
+          "sub": "Choose where",
+          "texto": [
+            "Choose a messaging app that supports buttons in the conversation. Telegram supports buttons and mini apps; on WhatsApp the features vary by account.",
+            "What matters is that it's the channel you already open all day."
+          ]
+        },
+        {
+          "titulo": "Triage",
+          "sub": "Fixed prompt",
+          "texto": [
+            "Give the assistant the triage prompt below. It reads the input and returns task, quadrant, reason and attachment.",
+            "Test it with three real meetings before you trust it."
+          ],
+          "exemplo": {
+            "rot": "Example",
+            "texto": "Partner asked: \"review the new partner's contract\". → Important, not urgent · reason: affects revenue, no deadline · attachment: contrato.pdf"
+          }
+        },
+        {
+          "titulo": "Buttons",
+          "sub": "Only for the irreversible",
+          "texto": [
+            "List the actions the assistant can prepare: buy a recurring item, send an email, schedule a meeting.",
+            "Each one ends with Confirm / Cancel. Payment comes from a low-limit card, separate from your main one."
+          ]
+        },
+        {
+          "titulo": "Connections",
+          "sub": "Google and others",
+          "texto": [
+            "To read Gmail, Drive and your calendar, the assistant uses a Google login (OAuth). If it's only for you or for your company, mark the app as internal or test.",
+            "To sell to third parties, see the Google box in the next section before promising a deadline."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The prompt goes in the assistant's instructions. The rule goes with it.",
+      "blocos": [
+        {
+          "rot": "Triage prompt",
+          "icone": "chat",
+          "conteudo": "You are my task assistant.\nWhen I send a meeting summary, an email or an audio message, do this:\n\n1. List each task that comes out of it, one per line, starting with a verb.\n2. For each task, choose ONE quadrant:\n   A = urgent and important  · I do it today\n   B = important, not urgent · I schedule it\n   C = urgent, not important · I delegate (agent or person)\n   D = neither · I drop it\n3. Write the reason in one line (deadline? does it affect revenue, a client or the law?).\n4. Attach the file mentioned, if there is one.\n5. If the task involves spending, sending something outside, or changing\n   someone else's calendar, do NOT execute it: prepare it and show me the Confirm button.\n\nOutput format:\n[quadrant] task · reason · attachment"
+        },
+        {
+          "rot": "Button rule",
+          "icone": "portao",
+          "conteudo": "ACTIONS THAT NEED CONFIRMATION:\n- purchase (limit per purchase: R$ <value>, separate card)\n- email or message to anyone outside the company\n- meeting invite to another person\n- any deletion\n\nFREE ACTIONS:\n- create a task for me\n- find a document and attach it\n- notify me when a price drops"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Example output",
+            "html": "<pre>[B] Review the new partner's contract · affects revenue, no deadline · contrato-parceiro.pdf\n[C] Order 2 ink cartridges · routine, short deadline · (Confirm button)\n[A] Reply to the client about the delivery · client waiting today · email from 09:12</pre>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Google's \"unverified app\" warning",
+      "sub": "Updated with Google's documentation (10/21/2026).",
+      "passos": [
+        {
+          "titulo": "What triggers it",
+          "sub": "Two things",
+          "texto": [
+            "Adding a logo or display name to the consent screen of a published external app requires <b>brand verification</b>, which usually takes from minutes to a few days.",
+            "Requesting access to sensitive or restricted data (full Gmail is restricted) requires a separate, longer <b>scope verification</b>."
+          ]
+        },
+        {
+          "titulo": "The myth",
+          "sub": "Removing the logo",
+          "texto": [
+            "There's a tip going around that removing the logo makes the warning go away. Removing the logo only avoids brand verification.",
+            "If the app reads Gmail, the warning stays until scope verification is done, and the project is capped at 100 users in total."
+          ]
+        },
+        {
+          "titulo": "How to avoid",
+          "sub": "the problem",
+          "texto": [
+            "Personal or internal company use is exempt: mark the app as internal.",
+            "To sell, request only the minimum access (read a label, send email) and set aside time for verification before promising a date to the client."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Use real meetings and emails from this week.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Triage 3 inputs",
+          "min": "20 min",
+          "texto": "Set up the triage prompt in your assistant and send three real inputs: a meeting summary, an email and an audio message.",
+          "pronto": "you have three answers in the format [quadrant] task · reason · attachment and you agree with at least two."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Button list",
+          "min": "15 min",
+          "texto": "Copy the button rule and adjust it to your situation, with the per-purchase limit.",
+          "pronto": "the rule lists at least 4 actions that need Confirm and the limit in reais."
+        },
+        {
+          "id": "e3",
+          "titulo": "3 · The right connection",
+          "min": "10 min",
+          "texto": "If your assistant uses a Google login, open the project's consent screen and check the user type.",
+          "pronto": "you can say whether the app is internal, test or external, and which accesses it requests."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions.",
+      "perguntas": [
+        {
+          "p": "In the meeting, your partner says: \"review the new partner's contract when you can.\" Which quadrant?",
+          "opcoes": [
+            "A: urgent and important, because it came from your partner",
+            "C: urgent, not important",
+            "B: important, not urgent",
+            "D: drop it"
+          ],
+          "certa": 2,
+          "ref": "codigo",
+          "explica": "The contract affects revenue (important), but \"when you can\" has no short deadline (not urgent). It goes on the calendar. The common mistake is calling everything that comes from your partner urgent."
+        },
+        {
+          "p": "Which action can the assistant take without asking for Confirm?",
+          "opcoes": [
+            "Buy the usual recurring item",
+            "Create a task for you with the attachment",
+            "Send the meeting invite to the client in your name"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Creating a task for you stays inside the company and is easy to undo. A purchase spends money and an invite speaks in your name to outside people: both need the button."
+        },
+        {
+          "p": "Your app reads your clients' Gmail and shows \"unverified app.\" Does removing the logo from the consent screen fix it?",
+          "opcoes": [
+            "Yes, the warning comes only from the logo",
+            "Only if you also change the app name and the color of the consent screen",
+            "No: Gmail requires verification of the access scopes"
+          ],
+          "certa": 2,
+          "ref": "passos",
+          "explica": "The logo triggers brand verification. Gmail access is restricted and has its own verification; without it, the warning stays and the project stops at 100 users."
+        },
+        {
+          "p": "Why prefer a chat with buttons?",
+          "opcoes": [
+            "Decide with one tap, without leaving the chat conversation",
+            "Because the AI model gets smarter",
+            "Because it skips the Friday review"
+          ],
+          "certa": 0,
+          "ref": "diagrama",
+          "explica": "Buttons and a mini app reduce the friction of deciding: you read, tap Confirm and move on. The model is the same; what changes is how easy it is to approve."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "One single entry point",
+          "texto": "Meetings, email and audio all go through the same assistant."
+        },
+        {
+          "t": "Quadrant with a reason",
+          "texto": "Each task comes out classified and with the attachment."
+        },
+        {
+          "t": "Button on the irreversible",
+          "texto": "Spending, sending outside and someone else's calendar wait for you."
+        },
+        {
+          "t": "Google without the myths",
+          "texto": "The logo is brand verification; Gmail is access verification."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Go further",
+      "links": [
+        {
+          "t": "Google · frequently asked questions about OAuth app verification",
+          "href": "https://support.google.com/cloud/answer/13463817",
+          "icone": "escudo"
+        }
+      ]
+    }
+  ]
+}

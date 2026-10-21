@@ -1,0 +1,249 @@
+{
+  "slug": "orquestra",
+  "num": 3,
+  "menu": "Orchestra",
+  "titulo": "The agent orchestra: one agent per role, with written context and rules",
+  "titulo_curto": "Agent orchestra",
+  "minutos": 16,
+  "lead": "A company's director is a conductor: purchasing, marketing, sales and finance play together and the director coordinates. It works the same with agents. Instead of one assistant that knows a little about everything, you build one per role, each with its own context, its own rules and its own model, running on a server that stays on 24 hours a day.",
+  "objetivo": "design your team of agents by role, with context per company, written rules and each one's model.",
+  "competencias": [
+    "desenhar-equipe-de-agentes",
+    "escrever-regras-de-programacao",
+    "separar-contexto-por-empresa"
+  ],
+  "aprende": [
+    {
+      "icone": "camadas",
+      "t": "Coordinator on top, specialists below"
+    },
+    {
+      "icone": "pasta",
+      "t": "One agent per company knows which repository and database to go to"
+    },
+    {
+      "icone": "git",
+      "t": "The rules for the agent that writes code"
+    },
+    {
+      "icone": "nuvem",
+      "t": "Server running 24/7 on the subscription, no API key"
+    }
+  ],
+  "hero_alt": "Small, clean server room, neutral light, an open laptop on a workbench.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The orchestra",
+      "sub": "Tap each agent.",
+      "estilo": "escada",
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "You",
+          "sub": "Maestro",
+          "detalhe": "You talk to the coordinator, or go straight to the specialist when the request is very specific."
+        },
+        {
+          "icone": "robo",
+          "titulo": "Coordinator",
+          "sub": "Assigns",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "lista",
+              "t": "Receives and routes"
+            },
+            {
+              "icone": "check",
+              "t": "Pulls the answers together"
+            }
+          ],
+          "detalhe": "The coordinator receives the request, decides which specialist handles it, and sends back a single answer. If it's about programming, it passes it to whoever programs, with the context already included."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Finance",
+          "sub": "Numbers",
+          "detalhe": "Reads revenue, banks and treasury. On a sensitive topic, ask two agents for the same analysis with the same context and compare them (lesson 4)."
+        },
+        {
+          "icone": "terminal",
+          "titulo": "Programming",
+          "sub": "Code",
+          "detalhe": "Works in the repository following written rules: its own branch, small commits, no secrets in the code, and a person approves the change."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Data",
+          "sub": "Analysis",
+          "detalhe": "Cross-checks sales, inventory and campaigns. Works together with finance and marketing and feeds, for example, the purchasing agent."
+        },
+        {
+          "icone": "megafone",
+          "titulo": "Sales",
+          "sub": "One per company",
+          "detalhe": "Each company has its own: it knows who everyone on the team is, the product, the CRM and that company's knowledge base."
+        }
+      ],
+      "legenda": "Split by function AND by company: a clinic's agent doesn't need to know about the real estate firm's construction projects."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Building the orchestra",
+      "sub": "Four decisions.",
+      "passos": [
+        {
+          "titulo": "Where it runs",
+          "sub": "24/7 server",
+          "texto": [
+            "Agents that serve the team need to stay on. A rented server (VPS) does the job; there are open platforms, like Hermes Agent, that already come with agent profiles, their own terminal and access through Telegram.",
+            "To experiment, a small machine is enough; with a dozen agents, memory usually calls for 8 GB or more."
+          ]
+        },
+        {
+          "titulo": "Who pays",
+          "sub": "Subscription",
+          "texto": [
+            "Several platforms connect the subscription you already have (ChatGPT/Codex, Claude) instead of an API key billed by usage.",
+            "Check your plan's terms to see whether automated use is allowed and how much it can handle per day."
+          ]
+        },
+        {
+          "titulo": "Context",
+          "sub": "Per company",
+          "texto": [
+            "Each agent gets only what it needs: the repository, the knowledge base, who's who on the team and that company's rules.",
+            "Write down the order of the sources of truth: first the repository, then the database, then everything else."
+          ]
+        },
+        {
+          "titulo": "Rules",
+          "sub": "In writing",
+          "texto": [
+            "The way a working agent operates becomes a rules file for the next one. Ask the good agent: \"write down the rules for how you work with me\".",
+            "Start with the rules for the agent that programs: they prevent the most damage."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The map stays with you. The rules go in the instructions of the agent that programs.",
+      "blocos": [
+        {
+          "rot": "Orchestra map",
+          "icone": "lista",
+          "conteudo": "AGENT         | FUNCTION                       | CONTEXT (sources)                 | MODEL\ncoordinator   | receives, routes, pulls together | list of agents and what each does | <top>\nfinance       | cash, accounts, forecast       | ERP, banks, cost spreadsheet      | <top at numbers>\nprogramming   | code and automations           | repository, database              | <top at code>\ndata          | sales, inventory, campaigns    | CRM, ads, inventory               | <economical>\nsales-<X>     | serves and qualifies           | company X's CRM, product, team    | <economical>\n\nGENERAL RULES\n- each agent only reads the sources on its own line\n- a request outside its function goes back to the coordinator\n- weekly report from each agent to you"
+        },
+        {
+          "rot": "Rules for the agent that programs",
+          "icone": "git",
+          "conteudo": "PROGRAMMING RULES\n\nBEFORE STARTING\n- git status and git pull in the right repository\n- never work directly on main (or master)\n\nDURING\n- one branch per task, short name in kebab-case (e.g.: fix-invoice)\n- small commits, a message that says what changed\n- no passwords, keys or customer data in the repository\n  (secrets stay in the password vault)\n\nSOURCES OF TRUTH, IN THIS ORDER\n1. the repository\n2. the database\n3. the documentation\n\nAT THE END\n- open a pull request with what changed and how to test it\n- NEVER do the merge: a person approves"
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "You can do it on paper before setting up any server.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Orchestra map",
+          "min": "30 min",
+          "texto": "Copy the map and fill it in with the roles in your company (or in the companies you serve). Start with five agents at most.",
+          "pronto": "the map has 3 to 5 agents, each with a role, context sources and the type of model."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Written rules",
+          "min": "15 min",
+          "texto": "Save the coding rules as REGRAS-PROGRAMACAO.md in the repository where the agent will work, and adjust the names.",
+          "pronto": "the file exists in the repository and has the rule \"never merge\"."
+        },
+        {
+          "id": "e3",
+          "titulo": "3 · Rules of a good agent",
+          "min": "10 min",
+          "texto": "Ask the agent you already work well with: \"write the rules for how you work with me, as a list\".",
+          "pronto": "you have the list and you marked the rules that go to the new agents."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions.",
+      "perguntas": [
+        {
+          "p": "You have clinics and a real estate agency. How do you split the sales agents?",
+          "opcoes": [
+            "One sales agent that knows everything about both companies together",
+            "One sales agent per company, each with its own CRM and team",
+            "No sales agent: the coordinator handles everything"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Separate context prevents mix-ups (the clinic agent quoting a property) and makes each one more accurate. The coordinator routes; it doesn't replace the specialist."
+        },
+        {
+          "p": "Which rule for the coding agent prevents the most damage?",
+          "opcoes": [
+            "Use kebab-case branch names, always short and consistent",
+            "Write short commit messages",
+            "Never merge without a person approving"
+          ],
+          "certa": 2,
+          "ref": "codigo",
+          "explica": "Branch names and messages help with organization. What keeps wrong code from reaching the live system is human approval on the pull request."
+        },
+        {
+          "p": "Why run the agents on a server and not on your laptop?",
+          "opcoes": [
+            "Because your team needs them at any hour",
+            "Because the model responds better on a server",
+            "Because the subscription only works on a server"
+          ],
+          "certa": 0,
+          "ref": "passos",
+          "explica": "An agent that serves your team has to be on when you close your laptop. The model is the same in both places."
+        },
+        {
+          "p": "What is the fastest way to write the rules for a new agent?",
+          "opcoes": [
+            "Copy a generic best-practices manual you found on the internet",
+            "Ask the agent that already works to write its own",
+            "Let the new agent figure it out on its own"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "The agent that already works well with you knows your way of working. Its rules are the most faithful starting point; then you adjust."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Maestro",
+          "texto": "You coordinate; the coordinator distributes; specialists execute."
+        },
+        {
+          "t": "Separate context",
+          "texto": "By role and by company, with the order of the sources of truth."
+        },
+        {
+          "t": "Written rules",
+          "texto": "Never on main, small commits, no secrets, merge by a person."
+        },
+        {
+          "t": "Server and subscription",
+          "texto": "On 24/7, using the plan you already pay for."
+        }
+      ]
+    }
+  ]
+}

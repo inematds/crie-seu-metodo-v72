@@ -1,0 +1,293 @@
+{
+  "slug": "tres-camadas",
+  "num": 1,
+  "menu": "Layers",
+  "titulo": "The company in 3 layers: you coordinate the agents, the agents serve the team",
+  "titulo_curto": "Three layers",
+  "minutos": 14,
+  "lead": "The business owner becomes the filter for everything: invoices, email access, CRM bonuses. To the person asking, it's urgent; to the business, it's rarely important. In this lesson you put a layer of agents between you and the team and write the contract for the first one.",
+  "objetivo": "write the contract for the first agent, the one that takes the urgent-but-not-important requests off your plate.",
+  "competencias": [
+    "classificar-pedidos-eisenhower",
+    "escrever-contrato-de-agente",
+    "definir-canal-unico"
+  ],
+  "aprende": [
+    {
+      "icone": "camadas",
+      "t": "Design the company in three layers"
+    },
+    {
+      "icone": "lista",
+      "t": "Separate urgent from important with the Eisenhower matrix"
+    },
+    {
+      "icone": "arquivo",
+      "t": "Write the agent's contract: it handles, it calls you, it never does"
+    },
+    {
+      "icone": "portao",
+      "t": "Put a confirm button on everything that can't be undone"
+    }
+  ],
+  "hero_alt": "A small office at the end of the day, a tidy desk and a screen with a task list.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Who talks to whom",
+      "sub": "Click each layer to see what goes in, what comes out, and what never passes through.",
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "You",
+          "sub": "Coordinates",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "check",
+              "t": "Decides and approves"
+            },
+            {
+              "icone": "lista",
+              "t": "Reads the Friday report"
+            }
+          ],
+          "detalhe": "You stop being the filter. You only get what's important: decisions, money above the limit, conflicts between people. Everything else arrives as a report."
+        },
+        {
+          "icone": "robo",
+          "titulo": "Agents",
+          "sub": "Handle it",
+          "itens": [
+            {
+              "icone": "arquivo",
+              "t": "Invoices"
+            },
+            {
+              "icone": "usuario",
+              "t": "Access and accounts"
+            },
+            {
+              "icone": "chat",
+              "t": "Process questions"
+            }
+          ],
+          "detalhe": "Each agent has one area and a written contract. It handles what's on the list, calls you when something falls off the list, and never does anything irreversible without confirmation."
+        },
+        {
+          "icone": "chat",
+          "titulo": "Team",
+          "sub": "Ask the agent",
+          "itens": [
+            {
+              "icone": "enviar",
+              "t": "One fixed channel"
+            },
+            {
+              "icone": "relogio",
+              "t": "Instant answer"
+            }
+          ],
+          "detalhe": "The team asks through the agreed channel and gets an answer without waiting for the owner. Requests outside the channel are not handled: that is what keeps the layer standing."
+        }
+      ],
+      "volta": "Every Friday you read what was resolved and adjust the contracts",
+      "legenda": "First order, then context and rules. Only then does the agent work well.",
+      "rolagem": true,
+      "rolagem_fim": {
+        "titulo": "The three layers together",
+        "texto": "The team asks the agent, the agent resolves or escalates, and you coordinate the agents instead of answering every request.",
+        "curto": "You coordinate; agents resolve; the team asks."
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "From chaos to the first agent",
+      "sub": "Seven steps. Tap each one.",
+      "passos": [
+        {
+          "titulo": "Inventory",
+          "sub": "5 days",
+          "texto": [
+            "Write down everything people ask you for during five workdays, one line per request, with who asked.",
+            "Don't solve anything differently: the goal is to see the real volume."
+          ],
+          "exemplo": {
+            "rot": "Inventory line",
+            "texto": "Tuesday · finance · \"where's the invoice for the email tool for September?\""
+          }
+        },
+        {
+          "titulo": "Matrix",
+          "sub": "Eisenhower",
+          "texto": [
+            "Sort each line into four groups: urgent and important, important but not urgent, urgent but not important, neither.",
+            "Urgent means a short deadline; important means it affects the business results."
+          ],
+          "exemplo": {
+            "rot": "Sorting",
+            "texto": "New bonus in the CRM for tomorrow → urgent, not important."
+          }
+        },
+        {
+          "titulo": "Pick 3",
+          "sub": "From the right group",
+          "texto": [
+            "Take three frequent requests from the \"urgent, not important\" group. They go to the first agent.",
+            "Prefer tasks with a known step-by-step: finding an invoice, setting up access, answering a process question."
+          ]
+        },
+        {
+          "titulo": "Contract",
+          "sub": "In writing",
+          "texto": [
+            "Write what the agent resolves on its own, when it calls you, and what it never does. Use the template below.",
+            "A short contract works better than a long manual: one page is enough."
+          ]
+        },
+        {
+          "titulo": "Channel",
+          "sub": "Just one",
+          "texto": [
+            "Set one fixed place for requests: a group, a chat bot, an email.",
+            "Tell the team the start date. A request that arrives another way is redirected to the channel."
+          ]
+        },
+        {
+          "titulo": "Confirm",
+          "sub": "The irreversible",
+          "texto": [
+            "Purchases, payments, anything sent outside, and deletions always stop at a question: \"Confirm?\".",
+            "The agent prepares; you press the button."
+          ]
+        },
+        {
+          "titulo": "Friday",
+          "sub": "Review",
+          "texto": [
+            "Read the report: what was resolved, what was escalated, what went wrong.",
+            "Each error becomes a new line in the contract. That is how the agent gets better."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The contract goes in the agent's instructions. The message goes to the team.",
+      "blocos": [
+        {
+          "rot": "Agent contract",
+          "icone": "arquivo",
+          "conteudo": "AGENT: <name> · area: <finance | personal | support>\n\nHANDLES ON ITS OWN:\n- <task 1>  (e.g., find the invoices for this month's tools)\n- <task 2>  (e.g., set up an email account for a new employee)\n- <task 3>  (e.g., answer questions about the reimbursement process)\n\nCALLS ME WHEN:\n- money is involved above $ <amount>\n- the request is not on the list above\n- two people are in conflict\n\nNEVER:\n- pay, buy, delete or send anything outside the company until I click \"Confirm\"\n- store a password or client data in plain text\n- promise a deadline or a price on my behalf\n\nCHANNEL: <where the team makes requests>\nREPORT: every Friday, a list with resolved / escalated / error"
+        },
+        {
+          "rot": "Message to the team",
+          "icone": "megafone",
+          "conteudo": "Starting <Monday, month/day>, requests for <invoices, access and process questions>\nwill go to <channel>. The assistant <name> answers, right away.\nIf it doesn't know, it calls me. Requests on these topics sent any other way\nwill be redirected to the channel."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Do this week. Move on to lesson 2 only when all three are true.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Inventory on the matrix",
+          "min": "5 days",
+          "texto": "Write down the requests that reach you over five days and sort each one into the four groups of the matrix.",
+          "pronto": "the list has at least 15 requests, each with its matrix group next to it."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Written contract",
+          "min": "30 min",
+          "texto": "Copy the template and fill it in with the three requests you picked from the \"urgent, not important\" group.",
+          "pronto": "the contract has 3 tasks under \"handles on its own\", 3 items under \"never\" and the limit amount in dollars."
+        },
+        {
+          "id": "e3",
+          "titulo": "3 · Team notified",
+          "min": "10 min",
+          "texto": "Adapt the message and send it in the team channel.",
+          "pronto": "the message went out with a start date, the topics and the channel."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after you try.",
+      "perguntas": [
+        {
+          "p": "At 6 p.m. an employee asks for a new bonus in the CRM for tomorrow. Which matrix group does it fall into?",
+          "opcoes": [
+            "Urgent and important: it has a deadline and affects a client",
+            "Urgent, not important: it goes to the agent",
+            "Important, not urgent: schedule it for the week"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "It has a short deadline (urgent), but it doesn't change the business result (not important). This is exactly the kind of request that leaves your plate and goes to the agent. The common mistake is treating it as important just because someone is in a hurry."
+        },
+        {
+          "p": "Which item should NOT be under \"handles on its own\" in the contract?",
+          "opcoes": [
+            "Find the invoices for this month's tools",
+            "Set up an email account for a new employee",
+            "Pay the supplier invoice that came due today"
+          ],
+          "certa": 2,
+          "ref": "codigo",
+          "explica": "Payment can't be undone: the agent can prepare it, but the decision goes through the \"Confirm\" button. Finding an invoice and setting up access have a known step-by-step and can stay with the agent."
+        },
+        {
+          "p": "An employee sends the request to your personal WhatsApp instead of the channel. What do you do?",
+          "opcoes": [
+            "Reply quickly on WhatsApp so his work isn't delayed",
+            "Redirect them to the agreed channel",
+            "Pass it to the agent yourself"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "If you reply or pass it along, you become the filter again and the agent layer falls apart. Redirecting kindly teaches the new path."
+        },
+        {
+          "p": "The agent made the same mistake twice this week. What's the fix?",
+          "opcoes": [
+            "A new line in the contract, at the Friday review",
+            "Swap the agent for a newer, more expensive AI model",
+            "Go back to doing the task yourself"
+          ],
+          "certa": 0,
+          "ref": "passos",
+          "explica": "A repeated mistake is almost always a missing rule. The Friday review turns each mistake into a line in the contract. Swapping the model before writing the rule just moves the mistake somewhere else."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Three layers",
+          "texto": "You coordinate the agents; the agents serve the team."
+        },
+        {
+          "t": "Matrix first",
+          "texto": "What is urgent without being important is the agent's first job."
+        },
+        {
+          "t": "Short contract",
+          "texto": "Handles on its own, calls me when, never does."
+        },
+        {
+          "t": "Confirm button",
+          "texto": "The irreversible waits for you."
+        }
+      ]
+    }
+  ]
+}

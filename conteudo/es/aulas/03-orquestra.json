@@ -1,0 +1,249 @@
+{
+  "slug": "orquestra",
+  "num": 3,
+  "menu": "Orquesta",
+  "titulo": "La orquesta de agentes: un agente por función, con contexto y reglas escritas",
+  "titulo_curto": "Orquesta de agentes",
+  "minutos": 16,
+  "lead": "El director de una empresa es un maestro: compras, marketing, ventas y finanzas tocan juntos y él coordina. Con agentes es igual. En vez de un asistente que sabe un poco de todo, armas uno por función, cada uno con su contexto, sus reglas y su modelo, corriendo en un servidor encendido las 24 horas.",
+  "objetivo": "diseñar tu equipo de agentes por función, con contexto por empresa, reglas escritas y el modelo de cada uno.",
+  "competencias": [
+    "desenhar-equipe-de-agentes",
+    "escrever-regras-de-programacao",
+    "separar-contexto-por-empresa"
+  ],
+  "aprende": [
+    {
+      "icone": "camadas",
+      "t": "Coordinador arriba, especialistas abajo"
+    },
+    {
+      "icone": "pasta",
+      "t": "Un agente por empresa sabe a qué repositorio y base ir"
+    },
+    {
+      "icone": "git",
+      "t": "Las reglas del agente que programa"
+    },
+    {
+      "icone": "nuvem",
+      "t": "Servidor 24/7 usando la suscripción, sin clave de API"
+    }
+  ],
+  "hero_alt": "Sala de servidores pequeña y limpia, luz neutra, una laptop abierta sobre un mesón.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "La orquesta",
+      "sub": "Haz clic en cada agente.",
+      "estilo": "escada",
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "Tú",
+          "sub": "Maestro",
+          "detalhe": "Hablas con el coordinador o vas directo al especialista cuando el pedido es muy específico."
+        },
+        {
+          "icone": "robo",
+          "titulo": "Coordinador",
+          "sub": "Distribuye",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "lista",
+              "t": "Recibe y reenvía"
+            },
+            {
+              "icone": "check",
+              "t": "Junta las respuestas"
+            }
+          ],
+          "detalhe": "El coordinador recibe el pedido, decide qué especialista lo atiende y te devuelve una sola respuesta. Si es programación, se lo pasa a quien programa, ya con el contexto."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Finanzas",
+          "sub": "Números",
+          "detalhe": "Lee facturación, bancos y tesorería. En un tema delicado, pide el mismo análisis a dos agentes con el mismo contexto y compara (clase 4)."
+        },
+        {
+          "icone": "terminal",
+          "titulo": "Programación",
+          "sub": "Código",
+          "detalhe": "Trabaja en el repositorio siguiendo reglas escritas: rama propia, commits pequeños, nada de secretos en el código, y quien aprueba el cambio es una persona."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Datos",
+          "sub": "Análisis",
+          "detalhe": "Cruza ventas, inventario y campañas. Trabaja junto con finanzas y marketing y alimenta, por ejemplo, al agente de compras."
+        },
+        {
+          "icone": "megafone",
+          "titulo": "Comercial",
+          "sub": "Uno por empresa",
+          "detalhe": "Cada empresa tiene el suyo: sabe quién es cada persona del equipo, el producto, el CRM y la base de conocimiento de esa empresa."
+        }
+      ],
+      "legenda": "Sepáralos por función Y por empresa: el agente de una clínica no necesita saber de las obras de la inmobiliaria."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Armando la orquesta",
+      "sub": "Cuatro decisiones.",
+      "passos": [
+        {
+          "titulo": "Dónde corre",
+          "sub": "Servidor 24/7",
+          "texto": [
+            "Los agentes que atienden al equipo deben estar siempre encendidos. Un servidor alquilado (VPS) lo resuelve; existen plataformas abiertas, como Hermes Agent, que ya traen perfiles de agente, terminal propia y acceso por Telegram.",
+            "Para experimentar, una máquina pequeña basta; con una docena de agentes, la memoria suele pedir 8 GB o más."
+          ]
+        },
+        {
+          "titulo": "Quién paga",
+          "sub": "Suscripción",
+          "texto": [
+            "Varias plataformas conectan la suscripción que ya tienes (ChatGPT/Codex, Claude) en lugar de una clave de API cobrada por uso.",
+            "Revisa en los términos de tu plan si el uso automático está permitido y cuánto aguanta por día."
+          ]
+        },
+        {
+          "titulo": "Contexto",
+          "sub": "Por empresa",
+          "texto": [
+            "Cada agente recibe solo lo que necesita: el repositorio, la base de conocimiento, quién es quién en el equipo y las reglas de esa empresa.",
+            "Escribe el orden de las fuentes de la verdad: primero el repositorio, después la base de datos, después el resto."
+          ]
+        },
+        {
+          "titulo": "Reglas",
+          "sub": "Por escrito",
+          "texto": [
+            "La forma de trabajar de un agente que ya funciona se convierte en un archivo de reglas para el siguiente. Pídele al buen agente: \"escribe las reglas de cómo trabajas conmigo\".",
+            "Empieza por las reglas del agente que programa: son las que más evitan estragos."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "El mapa lo guardas tú. Las reglas van en las instrucciones del agente que programa.",
+      "blocos": [
+        {
+          "rot": "Mapa de la orquesta",
+          "icone": "lista",
+          "conteudo": "AGENTE        | FUNCIÓN                        | CONTEXTO (fuentes)                | MODELO\ncoordinador   | recibe, reenvía, junta         | lista de agentes y qué hace cada uno | <top>\nfinanzas      | caja, cuentas, previsión       | ERP, bancos, planilla de costos   | <top en números>\nprogramación  | código y automatizaciones      | repositorio, base de datos        | <top en código>\ndatos         | ventas, inventario, campañas   | CRM, anuncios, inventario         | <económico>\ncomercial-<X> | atiende y califica             | CRM de la empresa X, producto, equipo | <económico>\n\nREGLAS GENERALES\n- cada agente solo lee las fuentes de su línea\n- un pedido fuera de la función vuelve al coordinador\n- informe semanal de cada agente para ti"
+        },
+        {
+          "rot": "Reglas del agente que programa",
+          "icone": "git",
+          "conteudo": "REGLAS DE PROGRAMACIÓN\n\nANTES DE EMPEZAR\n- git status y git pull en el repositorio correcto\n- nunca trabajar directo en main (ni en master)\n\nDURANTE\n- una rama por tarea, nombre corto en kebab-case (ej.: corrige-boleto)\n- commits pequeños, con un mensaje que diga qué cambió\n- nada de contraseñas, claves o datos de clientes en el repositorio\n  (los secretos quedan en el gestor de contraseñas)\n\nFUENTES DE LA VERDAD, EN ESTE ORDEN\n1. el repositorio\n2. la base de datos\n3. la documentación\n\nAL FINAL\n- abrir un pull request con lo que cambió y cómo probarlo\n- NUNCA hacer el merge: quien aprueba es una persona"
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Se puede hacer en papel antes de montar cualquier servidor.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Mapa de la orquesta",
+          "min": "30 min",
+          "texto": "Copia el mapa y complétalo con las funciones de tu empresa (o de las empresas que atiendes). Empieza con cinco agentes como máximo.",
+          "pronto": "el mapa tiene de 3 a 5 agentes, cada uno con función, fuentes de contexto y tipo de modelo."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Reglas escritas",
+          "min": "15 min",
+          "texto": "Guarda las reglas de programación como REGRAS-PROGRAMACAO.md en el repositorio donde el agente va a trabajar y ajusta los nombres.",
+          "pronto": "el archivo existe en el repositorio y tiene la regla \"nunca hacer el merge\"."
+        },
+        {
+          "id": "e3",
+          "titulo": "3 · Reglas del buen agente",
+          "min": "10 min",
+          "texto": "Pídele al agente con el que ya trabajas bien: \"escribe las reglas de cómo trabajas conmigo, en lista\".",
+          "pronto": "tienes la lista y marcaste las reglas que van para los agentes nuevos."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas.",
+      "perguntas": [
+        {
+          "p": "Tienes clínicas y una inmobiliaria. ¿Cómo separas a los agentes comerciales?",
+          "opcoes": [
+            "Un comercial único que conoce todo de las dos empresas juntas",
+            "Un comercial por empresa, cada uno con su CRM y su equipo",
+            "Ningún comercial: el coordinador atiende todo"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "El contexto separado evita mezclas (el agente de la clínica citando un inmueble) y deja a cada uno más preciso. El coordinador encamina; no sustituye al especialista."
+        },
+        {
+          "p": "¿Qué regla del agente que programa evita el mayor estropicio?",
+          "opcoes": [
+            "Usar nombres de rama en kebab-case, siempre cortos y estandarizados",
+            "Escribir mensajes de commit cortos",
+            "Nunca hacer el merge sin que una persona apruebe"
+          ],
+          "certa": 2,
+          "ref": "codigo",
+          "explica": "El nombre de la rama y el mensaje ayudan a organizar. Lo que impide que código con errores llegue al sistema en uso es la aprobación humana en el pull request."
+        },
+        {
+          "p": "¿Por qué correr los agentes en un servidor y no en el notebook?",
+          "opcoes": [
+            "Porque el equipo los necesita a cualquier hora",
+            "Porque en el servidor el modelo responde mejor",
+            "Porque la suscripción solo funciona en un servidor"
+          ],
+          "certa": 0,
+          "ref": "passos",
+          "explica": "El agente que atiende al equipo tiene que estar encendido cuando cierras el notebook. El modelo es el mismo en los dos lugares."
+        },
+        {
+          "p": "¿Cuál es la forma más rápida de escribir las reglas de un agente nuevo?",
+          "opcoes": [
+            "Copiar un manual genérico de buenas prácticas que encontraste en internet",
+            "Pedirle al agente que ya funciona que escriba las suyas",
+            "Dejar que el agente nuevo lo descubra solo"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "El agente que ya trabaja bien contigo conoce tu forma de hacer las cosas. Sus reglas son el punto de partida más fiel; después las ajustas."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Maestro",
+          "texto": "Tú coordinas; el coordinador distribuye; los especialistas ejecutan."
+        },
+        {
+          "t": "Contexto separado",
+          "texto": "Por función y por empresa, con el orden de las fuentes de la verdad."
+        },
+        {
+          "t": "Reglas escritas",
+          "texto": "Nunca en el main, commits pequeños, sin secretos, merge por una persona."
+        },
+        {
+          "t": "Servidor y suscripción",
+          "texto": "Encendido 24/7, usando el plan que ya pagas."
+        }
+      ]
+    }
+  ]
+}

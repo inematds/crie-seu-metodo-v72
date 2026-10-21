@@ -1,0 +1,330 @@
+{
+  "slug": "assistente",
+  "num": 2,
+  "menu": "Asistente",
+  "titulo": "El asistente en el chat: la reunión se vuelve tarea, la compra espera tu \"Confirmar\"",
+  "titulo_curto": "Asistente en el chat",
+  "minutos": 15,
+  "lead": "Un asistente que solo conversa ayuda poco. Lo que cambia tu día es el asistente que saca la tarea de la reunión, la pone en el cuadrante correcto de la matriz, adjunta el documento y prepara la acción con un botón. En esta clase armas esa rutina y entiendes el aviso de \"app no verificada\" de Google.",
+  "objetivo": "configurar el asistente para convertir reuniones y correos en tareas clasificadas y actuar solo después de tu \"Confirmar\".",
+  "competencias": [
+    "triar-tarefas-com-ia",
+    "desenhar-acao-com-confirmacao",
+    "entender-verificacao-google"
+  ],
+  "aprende": [
+    {
+      "icone": "chat",
+      "t": "Por qué un chat con botones ayuda más que un chat de solo texto"
+    },
+    {
+      "icone": "lista",
+      "t": "De la reunión a la tarea en el cuadrante correcto, con adjunto"
+    },
+    {
+      "icone": "portao",
+      "t": "Acciones con botón de confirmar: compra, envío, agenda"
+    },
+    {
+      "icone": "escudo",
+      "t": "Qué dispara el aviso de app no verificada en Google"
+    }
+  ],
+  "hero_alt": "Celular sobre la mesa mostrando una conversación con botones de confirmar, junto a un cuaderno.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Del pedido a la acción",
+      "sub": "Toca cada etapa.",
+      "nos": [
+        {
+          "icone": "chat",
+          "titulo": "Entrada",
+          "sub": "Reunión, correo",
+          "itens": [
+            {
+              "icone": "arquivo",
+              "t": "Resumen de la reunión"
+            },
+            {
+              "icone": "enviar",
+              "t": "Correo recibido"
+            },
+            {
+              "icone": "megafone",
+              "t": "Audio tuyo"
+            }
+          ],
+          "detalhe": "Todo lo que genera trabajo entra por el mismo asistente: el resumen de la reunión, el correo que pide algo, el audio que mandas mientras caminas."
+        },
+        {
+          "icone": "robo",
+          "titulo": "Asistente",
+          "sub": "Triaje",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "lista",
+              "t": "Saca la tarea"
+            },
+            {
+              "icone": "alvo",
+              "t": "La pone en el cuadrante"
+            },
+            {
+              "icone": "pasta",
+              "t": "Adjunta el documento"
+            }
+          ],
+          "detalhe": "El asistente identifica la tarea, decide el cuadrante de la matriz con una justificación de una línea y adjunta el archivo que vas a necesitar."
+        },
+        {
+          "icone": "portao",
+          "titulo": "Botón",
+          "sub": "Tú confirmas",
+          "itens": [
+            {
+              "icone": "check",
+              "t": "Confirmar"
+            },
+            {
+              "icone": "x",
+              "t": "Cancelar"
+            }
+          ],
+          "detalhe": "Toda acción que gasta dinero, envía algo hacia afuera o toca la agenda de otra persona se detiene en un botón. Tú lees y confirmas."
+        },
+        {
+          "icone": "check",
+          "titulo": "Acción",
+          "sub": "Hecha y registrada",
+          "itens": [
+            {
+              "icone": "calendario",
+              "t": "Tarea en la agenda"
+            },
+            {
+              "icone": "lista",
+              "t": "Registro de lo que hizo"
+            }
+          ],
+          "detalhe": "Después de tu sí, el asistente ejecuta y deja un registro corto: qué hizo, cuándo, con qué archivo."
+        }
+      ],
+      "legenda": "Los chats con botones y las pequeñas páginas dentro de la conversación (como los mini apps de Telegram) te dejan decidir con un toque, sin salir del chat."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Armando la rutina",
+      "sub": "Cuatro etapas.",
+      "passos": [
+        {
+          "titulo": "Canal",
+          "sub": "Elige dónde",
+          "texto": [
+            "Elige una aplicación de mensajería que acepte botones en la conversación. Telegram acepta botones y mini apps; en WhatsApp los recursos varían según la cuenta.",
+            "Lo importante es que sea el canal que ya abres todo el día."
+          ]
+        },
+        {
+          "titulo": "Triaje",
+          "sub": "Prompt fijo",
+          "texto": [
+            "Dale al asistente el prompt de triaje que aparece abajo. Lee la entrada y devuelve tarea, cuadrante, motivo y adjunto.",
+            "Pruébalo con tres reuniones reales antes de confiar en él."
+          ],
+          "exemplo": {
+            "rot": "Ejemplo",
+            "texto": "Un socio pidió: \"revisa el contrato del nuevo socio comercial\". → Importante, no urgente · motivo: afecta los ingresos, sin plazo · adjunto: contrato.pdf"
+          }
+        },
+        {
+          "titulo": "Botones",
+          "sub": "Solo en lo irreversible",
+          "texto": [
+            "Lista las acciones que el asistente puede preparar: comprar un artículo recurrente, enviar un correo, agendar una reunión.",
+            "Cada una termina con Confirmar / Cancelar. El pago sale de una tarjeta con límite bajo, separada de la principal."
+          ]
+        },
+        {
+          "titulo": "Conexiones",
+          "sub": "Google y otras",
+          "texto": [
+            "Para leer Gmail, Drive y la agenda, el asistente usa un inicio de sesión de Google (OAuth). Si es solo para ti o para tu empresa, marca la app como interna o de prueba.",
+            "Si vas a vender a terceros, revisa el cuadro de Google en la sección siguiente antes de prometer un plazo."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "El prompt va en las instrucciones del asistente. La regla va junto con él.",
+      "blocos": [
+        {
+          "rot": "Prompt de triaje",
+          "icone": "chat",
+          "conteudo": "Eres mi asistente de tareas.\nCuando te mande un resumen de reunión, un correo o un audio, haz esto:\n\n1. Lista cada tarea que salga de ahí, una por línea, con el verbo al inicio.\n2. Para cada tarea, elige UN cuadrante:\n   A = urgente e importante  · lo hago hoy\n   B = importante, no urgente · lo agendo\n   C = urgente, no importante · lo delego (agente o persona)\n   D = ni una cosa ni la otra · lo descarto\n3. Escribe el motivo en una línea (¿plazo? ¿afecta ingresos, clientes o la ley?).\n4. Adjunta el archivo mencionado, si lo hay.\n5. Si la tarea implica gastar, enviar algo hacia afuera o tocar la agenda\n   de otra persona, NO la ejecutes: prepárala y muéstrame el botón Confirmar.\n\nFormato de salida:\n[cuadrante] tarea · motivo · adjunto"
+        },
+        {
+          "rot": "Regla del botón",
+          "icone": "portao",
+          "conteudo": "ACCIONES QUE PIDEN CONFIRMAR:\n- compra (límite por compra: R$ <valor>, tarjeta separada)\n- correo o mensaje hacia fuera de la empresa\n- invitación a reunión para otra persona\n- cualquier eliminación\n\nACCIONES LIBRES:\n- crear una tarea para mí\n- buscar un documento y adjuntarlo\n- avisarme cuando baje un precio"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Ejemplo de salida",
+            "html": "<pre>[B] Revisar el contrato del nuevo socio comercial · afecta los ingresos, sin plazo · contrato-parceiro.pdf\n[C] Pedir 2 cartuchos de tinta · rutina, plazo corto · (botón Confirmar)\n[A] Responder al cliente sobre la entrega · cliente esperando hoy · correo de las 09:12</pre>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "El aviso de \"app no verificada\" de Google",
+      "sub": "Actualizado con la documentación de Google (21/10/2026).",
+      "passos": [
+        {
+          "titulo": "Qué lo activa",
+          "sub": "Dos cosas",
+          "texto": [
+            "Poner un logo o un nombre para mostrar en la pantalla de consentimiento de una app externa y publicada exige la <b>verificación de la marca</b>, que suele tardar de unos minutos a pocos días.",
+            "Pedir acceso a datos sensibles o restringidos (todo Gmail es restringido) exige una <b>verificación de los accesos</b>, aparte y más larga."
+          ]
+        },
+        {
+          "titulo": "El mito",
+          "sub": "Quitar el logo",
+          "texto": [
+            "Circula el consejo de que quitar el logo elimina el aviso. Quitar el logo solo evita la verificación de la marca.",
+            "Si la app lee Gmail, el aviso sigue hasta que salga la verificación de los accesos, y el proyecto queda limitado a 100 usuarios en total."
+          ]
+        },
+        {
+          "titulo": "Cómo evitarlo",
+          "sub": "El problema",
+          "texto": [
+            "El uso personal o interno de la empresa está exento: marca la app como interna.",
+            "Para vender, pide solo los accesos mínimos (leer una etiqueta, enviar correo) y reserva tiempo para la verificación antes de prometerle una fecha al cliente."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Usa reuniones y correos reales de esta semana.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Triaje de 3 entradas",
+          "min": "20 min",
+          "texto": "Configura el prompt de triaje en tu asistente y mándale tres entradas reales: un resumen de reunión, un correo y un audio.",
+          "pronto": "tienes tres respuestas en el formato [cuadrante] tarea · motivo · adjunto y estás de acuerdo con al menos dos."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Lista del botón",
+          "min": "15 min",
+          "texto": "Copia la regla del botón y ajústala a tu realidad, con el límite por compra.",
+          "pronto": "la regla lista al menos 4 acciones que piden Confirmar y el límite en reales."
+        },
+        {
+          "id": "e3",
+          "titulo": "3 · Conexión correcta",
+          "min": "10 min",
+          "texto": "Si tu asistente usa un inicio de sesión de Google, abre la pantalla de consentimiento del proyecto y revisa el tipo de usuario.",
+          "pronto": "sabes decir si la app es interna, de prueba o externa, y qué accesos pide."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas.",
+      "perguntas": [
+        {
+          "p": "El socio dice en la reunión: \"revisa el contrato del nuevo socio comercial cuando puedas\". ¿Qué cuadrante es?",
+          "opcoes": [
+            "A: urgente e importante, porque lo pidió el socio",
+            "C: urgente, no importante",
+            "B: importante, no urgente",
+            "D: descartar"
+          ],
+          "certa": 2,
+          "ref": "codigo",
+          "explica": "El contrato toca los ingresos (importante), pero \"cuando puedas\" no tiene un plazo corto (no urgente). Va a la agenda. El error común es llamar urgente a todo lo que viene del socio."
+        },
+        {
+          "p": "¿Qué acción puede hacer el asistente sin pedir Confirmar?",
+          "opcoes": [
+            "Comprar el artículo recurrente de siempre",
+            "Crear una tarea para ti con el adjunto",
+            "Enviar la invitación a la reunión al cliente en tu nombre"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Crear una tarea para ti no sale de la empresa y se deshace fácil. Comprar gasta dinero y la invitación habla en tu nombre con terceros: ambas piden el botón."
+        },
+        {
+          "p": "Tu app lee el Gmail de los clientes y muestra \"app no verificada\". ¿Quitar el logo de la pantalla de consentimiento lo resuelve?",
+          "opcoes": [
+            "Sí, el aviso viene solo del logo",
+            "Solo si cambias también el nombre de la app y el color de la pantalla de consentimiento",
+            "No: Gmail exige la verificación de los accesos"
+          ],
+          "certa": 2,
+          "ref": "passos",
+          "explica": "El logo dispara la verificación de la marca. El acceso a Gmail es restringido y tiene su propia verificación; sin ella, el aviso se queda y el proyecto se detiene en 100 usuarios."
+        },
+        {
+          "p": "¿Por qué preferir un chat con botones?",
+          "opcoes": [
+            "Decidir con un toque, sin salir de la conversación del chat",
+            "Porque el modelo de IA se vuelve más inteligente",
+            "Porque evita la revisión del viernes"
+          ],
+          "certa": 0,
+          "ref": "diagrama",
+          "explica": "El botón y la mini app reducen la fricción de la decisión: lees, tocas Confirmar y sigues. El modelo es el mismo; lo que cambia es lo fácil que es aprobar."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Una sola entrada",
+          "texto": "Reunión, correo y audio pasan por el mismo asistente."
+        },
+        {
+          "t": "Cuadrante con motivo",
+          "texto": "Cada tarea sale clasificada y con el adjunto."
+        },
+        {
+          "t": "Botón en lo irreversible",
+          "texto": "Gastar, enviar hacia afuera y la agenda ajena te esperan a ti."
+        },
+        {
+          "t": "Google sin mitos",
+          "texto": "El logo es verificación de la marca; Gmail es verificación de acceso."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Google · preguntas frecuentes sobre la verificación de apps OAuth",
+          "href": "https://support.google.com/cloud/answer/13463817",
+          "icone": "escudo"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "slug": "criterio",
+  "num": 7,
+  "menu": "Criterio",
+  "titulo": "Criterio humano: la prueba del modelo nuevo y los datos sensibles del cliente",
+  "titulo_curto": "Criterio y datos",
+  "minutos": 15,
+  "lead": "Si sale un modelo nuevo y tu trabajo desaparece, estabas trabajando la herramienta. Si sale un modelo nuevo y solo te vuelves más rápido, estabas trabajando el criterio. En esta clase haces esa prueba, aprendes a separar los datos sensibles antes de conectar la IA al cliente y a prospectar antes de tener prueba social.",
+  "objetivo": "aplicar la prueba del modelo nuevo a tu trabajo y separar los datos de un cliente en tres grupos antes de conectar la IA.",
+  "competencias": [
+    "aplicar-teste-do-modelo-novo",
+    "classificar-dados-sensiveis",
+    "prospectar-sem-prova-social"
+  ],
+  "aprende": [
+    {
+      "icone": "alvo",
+      "t": "La prueba del modelo nuevo"
+    },
+    {
+      "icone": "relogio",
+      "t": "Cocinar el plan antes de ejecutar lo delicado"
+    },
+    {
+      "icone": "cadeado",
+      "t": "Tres grupos de datos: abierto, restringido, local"
+    },
+    {
+      "icone": "video",
+      "t": "Prospectar con video del caso y landing"
+    }
+  ],
+  "hero_alt": "Archivo de carpetas físicas en un estante de oficina de arquitectura, con una carpeta separada con etiqueta en blanco.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Los datos del cliente en tres grupos",
+      "sub": "Caso: oficina de arquitectura con todos los archivos en un servidor local (NAS). Haz clic en cada grupo.",
+      "nos": [
+        {
+          "icone": "pasta",
+          "titulo": "Abierto",
+          "sub": "IA en la nube",
+          "itens": [
+            {
+              "icone": "arquivo",
+              "t": "Propuestas y plantillas"
+            },
+            {
+              "icone": "calendario",
+              "t": "Agenda y correos"
+            }
+          ],
+          "detalhe": "El día a día que la empresa ya acepta procesar en la nube, de preferencia en una cuenta empresarial con términos claros de privacidad. Aquí el agente trabaja en una carpeta propia."
+        },
+        {
+          "icone": "cadeado",
+          "titulo": "Restringido",
+          "sub": "Fuera de alcance",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "escudo",
+              "t": "Proyectos confidenciales"
+            },
+            {
+              "icone": "grafico",
+              "t": "Finanzas de los socios"
+            }
+          ],
+          "detalhe": "El fondo de comercio: proyectos confidenciales, investigación, datos de los socios. Sale de la carpeta que el agente ve. Sepáralo antes de conectar, no después."
+        },
+        {
+          "icone": "chip",
+          "titulo": "Local",
+          "sub": "IA en casa",
+          "itens": [
+            {
+              "icone": "nuvem",
+              "t": "Modelo abierto en el servidor del cliente"
+            }
+          ],
+          "detalhe": "Si lo restringido también necesita IA, esta corre en un modelo abierto en el servidor del propio cliente. Es más caro y más lento; viene después, poco a poco."
+        }
+      ],
+      "legenda": "Dale al cliente dos opciones por escrito: él es dueño de los datos y responsable de ellos, o lo montas en tu estructura con reglas claras."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Criterio antes que herramienta",
+      "sub": "Cuatro hábitos.",
+      "passos": [
+        {
+          "titulo": "La prueba",
+          "sub": "Modelo nuevo",
+          "texto": [
+            "Pregunta: si mañana sale un modelo que hace lo que yo hago, ¿mi trabajo desaparece o se vuelve más rápido?",
+            "Si desaparece, vendes herramienta. Si se acelera, vendes criterio y método."
+          ]
+        },
+        {
+          "titulo": "Cocinar",
+          "sub": "El plan",
+          "texto": [
+            "En un tema delicado (financiero, datos sensibles), dedica horas al plan antes de ejecutar.",
+            "Discútelo en una IA sin el contexto del proyecto para pensar desde fuera y solo después arma el plan con el agente que conoce todo."
+          ]
+        },
+        {
+          "titulo": "Separar",
+          "sub": "Los datos",
+          "texto": [
+            "Antes de conectar la IA al servidor del cliente, lista las carpetas y marca cada una: abierto, restringido o local.",
+            "Mueve lo restringido fuera de la carpeta que el agente ve. Conectar primero y separar después es tarde."
+          ]
+        },
+        {
+          "titulo": "Prospectar",
+          "sub": "Sin prueba social",
+          "texto": [
+            "¿Todavía no tienes testimonio? Graba un video corto explicando el caso que hiciste y qué cambió para el cliente, sin nombres.",
+            "Arma una landing con el video y un botón para una conversación de 15 minutos. Al terminar un proyecto, pide el testimonio."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "El primero lo respondes tú solo. El segundo va para el cliente.",
+      "blocos": [
+        {
+          "rot": "Prueba del modelo nuevo",
+          "icone": "alvo",
+          "conteudo": "LO QUE ENTREGO HOY (3 ítems):\n1. <entrega>\n2. <entrega>\n3. <entrega>\n\nPARA CADA UNO: si mañana un modelo nuevo hace esto solo,\n[ ] desaparece   [ ] quedo más rápido\n\nLO QUE QUEDA CONMIGO CON CUALQUIER MODELO:\n- <criterio que aplico: qué revisar, qué rechazar, el orden de las piezas>\n- <método documentado>\n\nPRÓXIMO PASO: convertir 1 ítem \"desaparece\" en método (clase 5)."
+        },
+        {
+          "rot": "Clasificación de las carpetas del cliente",
+          "icone": "cadeado",
+          "conteudo": "CLIENTE: <nombre>   SERVIDOR: <NAS / nube / mixto>   FECHA: <dd/mm/aaaa>\n\nCARPETA                    | GRUPO       | MOTIVO\n/propostas                 | abierto     | modelos y propuestas comerciales\n/projetos/<cliente-sigilo> | restringido | contrato de confidencialidad\n/financeiro/socios         | restringido | datos personales de los socios\n/pesquisa                  | local       | fondo de comercio, necesita IA\n\nDECISIÓN DEL CLIENTE (firmada):\n[ ] el cliente es dueño y responsable de los datos; yo aplico la seguridad\n[ ] montado en mi estructura, con las reglas de arriba"
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Cierra el curso con estas tres.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Prueba del modelo nuevo",
+          "min": "15 min",
+          "texto": "Completa la prueba con tres entregas tuyas.",
+          "pronto": "cada entrega está marcada como \"desaparece\" o \"quedo más rápido\" y escribiste qué queda contigo."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Carpetas de un cliente",
+          "min": "30 min",
+          "texto": "Elige un cliente (o tu empresa) y clasifica las carpetas principales en los tres grupos.",
+          "pronto": "la tabla tiene al menos 6 carpetas, cada una con grupo y motivo."
+        },
+        {
+          "id": "e3",
+          "titulo": "3 · Prospección con el caso",
+          "min": "40 min",
+          "texto": "Escribe el guion de un video de hasta 90 segundos sobre un caso tuyo: problema, lo que armaste, qué cambió.",
+          "pronto": "el guion tiene las tres partes, ningún nombre de cliente y termina con la invitación a 15 minutos."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas.",
+      "perguntas": [
+        {
+          "p": "Vendes automatizaciones en una plataforma de flujos. Sale un agente que hace lo mismo solo y tus pedidos caen. ¿Qué muestra esto?",
+          "opcoes": [
+            "Que estabas trabajando la herramienta, no el criterio",
+            "Que necesitas cambiar de plataforma de flujos por otra más nueva y completa",
+            "Que el mercado de la IA se va a acabar pronto"
+          ],
+          "certa": 0,
+          "ref": "passos",
+          "explica": "Si tu trabajo desaparece con el modelo nuevo, el valor estaba en la herramienta. La salida es vender el criterio y el método que siguen valiendo con cualquier modelo."
+        },
+        {
+          "p": "La oficina quiere el agente en los archivos del NAS, donde también hay proyectos confidenciales. ¿Cuál es el primer paso?",
+          "opcoes": [
+            "Conectar todo de una vez y revisar el acceso a las carpetas después",
+            "Separar lo restringido antes de conectar",
+            "Rechazar al cliente: el NAS no acepta IA"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Después de conectar, el agente ya lo ve todo. Separar antes, y con la decisión del cliente por escrito, es lo que protege el patrimonio del negocio."
+        },
+        {
+          "p": "¿En qué caso vale la pena invertir horas en el plan antes de ejecutar?",
+          "opcoes": [
+            "Al crear el post de la semana para las redes sociales de la empresa",
+            "Al cambiar el nombre de un archivo",
+            "Al montar el agente financiero del grupo"
+          ],
+          "certa": 2,
+          "ref": "passos",
+          "explica": "Un tema delicado, con dinero y muchas fuentes, pide criterio antes de la ejecución. Una tarea simple y reversible no necesita horas de plan."
+        },
+        {
+          "p": "Todavía no tienes testimonios. ¿Cómo prospectar?",
+          "opcoes": [
+            "Esperar a que el primer cliente termine para empezar",
+            "Un video corto del caso, sin nombres, en una landing con invitación a una llamada de 15 minutos",
+            "Inventar un testimonio para el sitio"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "El caso contado con problema, solución y resultado ya convence, sin exponer al cliente. Inventar un testimonio es mentira; esperar atrasa meses."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "La prueba",
+          "texto": "¿Un modelo nuevo borra o acelera tu trabajo?"
+        },
+        {
+          "t": "Cocina el plan",
+          "texto": "En lo delicado, horas de plan antes de la ejecución."
+        },
+        {
+          "t": "Tres grupos",
+          "texto": "Abierto, restringido, local. Separa antes de conectar."
+        },
+        {
+          "t": "Primero el orden",
+          "texto": "Después contexto y reglas. Ahí la IA hace lo que promete."
+        }
+      ]
+    }
+  ]
+}

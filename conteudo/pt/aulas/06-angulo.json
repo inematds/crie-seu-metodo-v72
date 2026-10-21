@@ -1,0 +1,352 @@
+{
+  "slug": "angulo",
+  "num": 6,
+  "menu": "Ângulo",
+  "titulo": "Um ângulo do anúncio ao vendedor: congruência e vender perguntando",
+  "titulo_curto": "O mesmo ângulo",
+  "minutos": 17,
+  "lead": "Anúncio genérico atrai gente genérica. Quando o anúncio fala de uma dor, a landing, a primeira mensagem e o vendedor têm de falar da mesma dor. E o vendedor abre perguntando, não apresentando: \"os júniores vendem falando; os seniores vendem perguntando\".",
+  "objetivo": "escrever três ângulos com anúncio, título de landing e pergunta de abertura do vendedor falando da mesma dor.",
+  "competencias": [
+    "escrever-angulos-de-anuncio",
+    "alinhar-funil-por-angulo",
+    "abrir-venda-com-pergunta"
+  ],
+  "aprende": [
+    {
+      "icone": "alvo",
+      "t": "O que é um ângulo e por que o genérico perde"
+    },
+    {
+      "icone": "seta",
+      "t": "Uma landing só, com o texto que troca pelo utm_content"
+    },
+    {
+      "icone": "chat",
+      "t": "Atendimento e vendedor com o contexto do anúncio"
+    },
+    {
+      "icone": "usuario",
+      "t": "Abrir a ligação com uma pergunta"
+    }
+  ],
+  "hero_alt": "Duas pessoas conversando numa mesa de café, uma delas anota num caderno; luz natural neutra.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "O mesmo ângulo em quatro lugares",
+      "sub": "Exemplo: \"reformamos seu imóvel sem custo e viramos seu inquilino\". Clique em cada etapa.",
+      "nos": [
+        {
+          "icone": "megafone",
+          "titulo": "Anúncio",
+          "sub": "A dor",
+          "itens": [
+            {
+              "icone": "alvo",
+              "t": "\"Seu imóvel precisa de reforma?\""
+            }
+          ],
+          "detalhe": "O anúncio fala de uma dor concreta. Cada ângulo tem o seu link com <code>utm_content</code> com o nome do ângulo."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "Landing",
+          "sub": "Mesma dor",
+          "itens": [
+            {
+              "icone": "seta",
+              "t": "Título troca pelo utm_content"
+            }
+          ],
+          "detalhe": "Uma landing só. O título e o subtítulo trocam conforme o utm_content (substituição dinâmica de texto). Quem veio pela reforma lê sobre reforma."
+        },
+        {
+          "icone": "robo",
+          "titulo": "Atendimento",
+          "sub": "Já sabe",
+          "itens": [
+            {
+              "icone": "chat",
+              "t": "\"Vi que você se interessou pela reforma…\""
+            }
+          ],
+          "detalhe": "O ângulo vai para um campo do CRM. O assistente abre a conversa no mesmo tema e propõe a ligação."
+        },
+        {
+          "icone": "usuario",
+          "titulo": "Vendedor",
+          "sub": "Pergunta",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "chat",
+              "t": "\"O que chamou sua atenção?\""
+            }
+          ],
+          "detalhe": "O vendedor lê o ângulo no CRM e abre perguntando. Nada de texto genérico de apresentação."
+        }
+      ],
+      "legenda": "Trabalhe vários ângulos, descubra o vencedor e adapte o roteiro a ele."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Genérico × ângulo",
+      "sub": "Exemplos de um mesmo serviço.",
+      "passos": [
+        {
+          "titulo": "Genérico",
+          "sub": "O que não fazer",
+          "texto": [
+            "\"Recupere seu cabelo. Um verão a mais com confiança.\"",
+            "Bonito, mas não fala do medo real de quem pensa em transplante capilar."
+          ]
+        },
+        {
+          "titulo": "Ângulo 1",
+          "sub": "Sem raspar",
+          "texto": [
+            "\"Transplante capilar sem raspar a cabeça: em 10 dias você volta ao trabalho sem ninguém perceber.\"",
+            "Fala da dor: não quer aparecer de cabeça raspada."
+          ]
+        },
+        {
+          "titulo": "Ângulo 2",
+          "sub": "Tudo incluído",
+          "texto": [
+            "\"Transplante com passagem e hotel incluídos.\"",
+            "Na landing, a página fala de deslocamento; o vendedor sabe que o lead veio por isso."
+          ]
+        },
+        {
+          "titulo": "Vender perguntando",
+          "sub": "Abertura",
+          "texto": [
+            "Em vez de apresentar a empresa, pergunte: \"o que chamou sua atenção no anúncio?\".",
+            "Se a resposta é a reforma: \"entendo que o imóvel é antigo. Está alugado hoje?\""
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "simconversa",
+      "titulo": "Ligação simulada: o lead da reforma",
+      "sub": "Conversa simulada para treinar. Escolha o que você diria; o comentário aparece logo depois.",
+      "personagem": {
+        "nome": "Proprietária de um apartamento",
+        "papel": "veio pelo anúncio da reforma sem custo"
+      },
+      "inicio": "abre",
+      "falas": {
+        "abre": {
+          "cliente": "Oi, vocês me ligaram? Eu deixei meu contato naquele anúncio.",
+          "opcoes": [
+            {
+              "t": "Sim! Somos uma empresa com 10 anos de mercado, atuamos em três cidades e temos vários serviços. Posso explicar?",
+              "vai": "fim-generico",
+              "nota": 0,
+              "comenta": "Você abriu falando de você. Ela veio por uma dor (a reforma), e você não tocou nela."
+            },
+            {
+              "t": "Liguei, sim. O que chamou sua atenção no anúncio?",
+              "vai": "reforma",
+              "nota": 2,
+              "comenta": "Pergunta aberta e no ângulo certo. Agora ela conta com as palavras dela."
+            },
+            {
+              "t": "Liguei. Vi que você se interessou pela reforma sem custo, certo?",
+              "vai": "reforma",
+              "nota": 1,
+              "comenta": "Está no ângulo, mas é pergunta de sim ou não. Ela confirma e você fica sem informação."
+            }
+          ]
+        },
+        "reforma": {
+          "cliente": "É que o apartamento está bem antigo. Está vazio há quatro meses e eu não tenho dinheiro para reformar agora.",
+          "opcoes": [
+            {
+              "t": "Então é perfeito: reformamos e alugamos. Posso mandar o contrato?",
+              "vai": "fim-pressa",
+              "nota": 0,
+              "comenta": "Pulou para o fechamento sem saber o tamanho do imóvel nem o que ela espera. Contrato agora assusta."
+            },
+            {
+              "t": "Quatro meses vazio pesa. O que mais te preocupa: o custo da reforma ou ficar sem receber?",
+              "vai": "medo",
+              "nota": 2,
+              "comenta": "Você nomeou a dor dela e pediu para ela escolher. Assim descobre o que pesa de verdade."
+            },
+            {
+              "t": "Quantos quartos tem o apartamento?",
+              "vai": "medo",
+              "nota": 1,
+              "comenta": "Informação útil, mas cedo demais. Primeiro a dor, depois os detalhes."
+            }
+          ]
+        },
+        "medo": {
+          "cliente": "Ficar sem receber. Eu conto com esse aluguel todo mês.",
+          "opcoes": [
+            {
+              "t": "Faz sentido. Posso marcar 15 minutos amanhã para te mostrar como fica o pagamento desde o primeiro mês?",
+              "vai": "fim-bom",
+              "nota": 2,
+              "comenta": "Respondeu à dor dela (receber todo mês) e fechou com um próximo passo pequeno e marcado."
+            },
+            {
+              "t": "Entendo. Vou te mandar um material completo por e-mail.",
+              "vai": "fim-material",
+              "nota": 1,
+              "comenta": "Educado, mas sem data. Material solto costuma ficar sem leitura."
+            },
+            {
+              "t": "Nosso diferencial é a qualidade do acabamento.",
+              "vai": "fim-generico",
+              "nota": 0,
+              "comenta": "Ela disse que o medo é ficar sem receber, e você falou de acabamento."
+            }
+          ]
+        },
+        "fim-generico": {
+          "fim": true,
+          "titulo": "Ela perdeu o interesse",
+          "texto": "A conversa saiu do ângulo que a trouxe. Volte, abra perguntando e fique na dor dela."
+        },
+        "fim-pressa": {
+          "fim": true,
+          "titulo": "Fechamento cedo demais",
+          "texto": "Proposta antes de entender o medo dela vira objeção. Pergunte mais uma vez antes de propor."
+        },
+        "fim-material": {
+          "fim": true,
+          "titulo": "Ficou no ar",
+          "texto": "Sem próximo passo marcado, o lead esfria. Termine com data e hora."
+        },
+        "fim-bom": {
+          "fim": true,
+          "titulo": "Reunião marcada",
+          "texto": "Você ficou no ângulo, descobriu o medo e marcou um passo pequeno. É assim que o roteiro do vendedor se adapta ao ângulo vencedor."
+        }
+      },
+      "licao": "Abra perguntando, fique na dor que trouxe o lead e termine com um próximo passo marcado."
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "Um bloco por ângulo. Três no mínimo.",
+      "blocos": [
+        {
+          "rot": "Ficha de ângulo",
+          "icone": "alvo",
+          "conteudo": "ÂNGULO: <nome curto>   utm_content=<nome-curto>\nDOR (nas palavras do cliente): \"<frase que ele diria>\"\n\nANÚNCIO · título: <frase com a dor>\nLANDING · título: <a mesma dor + a sua solução>\nLANDING · subtítulo: <prova ou número>\nATENDIMENTO · primeira mensagem: \"Vi que você se interessou por <dor>. <pergunta>?\"\nVENDEDOR · abertura: \"O que chamou sua atenção no anúncio?\"\nVENDEDOR · segunda pergunta: <pergunta que aprofunda a dor>\nPRÓXIMO PASSO: <reunião de 15 min, com data>"
+        },
+        {
+          "rot": "Link do anúncio com o ângulo",
+          "icone": "seta",
+          "conteudo": "https://seusite.com.br/landing?utm_source=meta&utm_medium=pago&utm_campaign=<campanha>&utm_content=<angulo>"
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "Use um serviço real seu ou de um cliente.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Três ângulos",
+          "min": "40 min",
+          "texto": "Preencha a ficha de ângulo três vezes, para três dores diferentes do mesmo serviço.",
+          "pronto": "você tem 3 fichas, cada uma com a dor entre aspas, o título da landing e a pergunta de abertura."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Ligação simulada",
+          "min": "10 min",
+          "texto": "Faça a ligação simulada desta aula até o placar máximo.",
+          "pronto": "você chegou ao fim \"Reunião marcada\" com o placar máximo."
+        },
+        {
+          "id": "e3",
+          "titulo": "3 · Anúncio da concorrência",
+          "min": "15 min",
+          "texto": "Abra a biblioteca de anúncios da Meta, procure o seu setor e escolha um anúncio genérico.",
+          "pronto": "você reescreveu o título desse anúncio com uma dor concreta."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "4 perguntas.",
+      "perguntas": [
+        {
+          "p": "Você tem três ângulos. Precisa de três landings?",
+          "opcoes": [
+            "Sim, uma página separada por ângulo, cada uma com seu próprio domínio",
+            "Não: uma landing com o texto trocado pelo utm_content",
+            "Não: uma landing genérica serve para todos"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Uma página só, com título e subtítulo trocados conforme o utm_content, mantém a congruência sem multiplicar páginas. A genérica perde a congruência."
+        },
+        {
+          "p": "Qual abertura de ligação é a de quem vende perguntando?",
+          "opcoes": [
+            "\"Somos líderes de mercado há 10 anos.\"",
+            "\"Posso te mandar a nossa apresentação?\"",
+            "\"O que chamou sua atenção no anúncio?\""
+          ],
+          "certa": 2,
+          "ref": "simconversa",
+          "explica": "A pergunta aberta faz o cliente contar a dor com as palavras dele. As outras falam da empresa ou adiam a conversa."
+        },
+        {
+          "p": "Por que guardar o ângulo num campo do CRM?",
+          "opcoes": [
+            "Para o atendimento e o vendedor falarem do mesmo tema",
+            "Para o relatório mensal ficar mais completo e mais bonito para a diretoria",
+            "Para a plataforma de anúncios cobrar menos"
+          ],
+          "certa": 0,
+          "ref": "diagrama",
+          "explica": "Sem o ângulo no CRM, o vendedor liga com um texto genérico e quebra a congruência que o anúncio e a landing criaram."
+        },
+        {
+          "p": "\"Recupere seu cabelo, um verão a mais com confiança.\" O que falta nesse anúncio?",
+          "opcoes": [
+            "Uma foto de celebridade mais famosa",
+            "Um preço com desconto em destaque logo na primeira linha do texto",
+            "A dor real: não querer raspar a cabeça"
+          ],
+          "certa": 2,
+          "ref": "passos",
+          "explica": "O anúncio é bonito e genérico. O ângulo forte nomeia o medo concreto de quem decide: aparecer raspado no trabalho."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {
+          "t": "Ângulo é dor",
+          "texto": "Uma frase que o cliente diria."
+        },
+        {
+          "t": "Congruência",
+          "texto": "Anúncio, landing, atendimento e vendedor falam da mesma dor."
+        },
+        {
+          "t": "Uma landing",
+          "texto": "O texto troca pelo utm_content."
+        },
+        {
+          "t": "Vender perguntando",
+          "texto": "Abra com uma pergunta e termine com data marcada."
+        }
+      ]
+    }
+  ]
+}

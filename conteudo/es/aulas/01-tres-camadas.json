@@ -1,0 +1,293 @@
+{
+  "slug": "tres-camadas",
+  "num": 1,
+  "menu": "Capas",
+  "titulo": "La empresa en 3 capas: tú coordinas a los agentes, los agentes atienden al equipo",
+  "titulo_curto": "Tres capas",
+  "minutos": 14,
+  "lead": "El dueño de la empresa se convierte en el filtro de todo: factura, acceso al correo, bono en el CRM. Para quien lo pide es urgente; para el negocio rara vez es importante. En esta clase pones una capa de agentes entre tú y el equipo y escribes el contrato del primero de ellos.",
+  "objetivo": "escribir el contrato del primer agente que te quita los pedidos urgentes que no son importantes.",
+  "competencias": [
+    "classificar-pedidos-eisenhower",
+    "escrever-contrato-de-agente",
+    "definir-canal-unico"
+  ],
+  "aprende": [
+    {
+      "icone": "camadas",
+      "t": "Diseñar la empresa en tres capas"
+    },
+    {
+      "icone": "lista",
+      "t": "Separar lo urgente de lo importante con la matriz de Eisenhower"
+    },
+    {
+      "icone": "arquivo",
+      "t": "Escribir el contrato del agente: resuelve, te llama, nunca hace"
+    },
+    {
+      "icone": "portao",
+      "t": "Poner un botón de confirmar en todo lo que no tiene vuelta atrás"
+    }
+  ],
+  "hero_alt": "Oficina pequeña al final del día, mesa ordenada y una pantalla con una lista de tareas.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Quién habla con quién",
+      "sub": "Haz clic en cada capa para ver qué entra, qué sale y qué nunca pasa por ahí.",
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "Tú",
+          "sub": "Coordina",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "check",
+              "t": "Decide y aprueba"
+            },
+            {
+              "icone": "lista",
+              "t": "Lee el informe del viernes"
+            }
+          ],
+          "detalhe": "Dejas de ser el filtro. Recibes solo lo importante: decisiones, dinero por encima del límite, conflictos entre personas. Lo demás llega como informe."
+        },
+        {
+          "icone": "robo",
+          "titulo": "Agentes",
+          "sub": "Resuelven",
+          "itens": [
+            {
+              "icone": "arquivo",
+              "t": "Facturas"
+            },
+            {
+              "icone": "usuario",
+              "t": "Accesos y registros"
+            },
+            {
+              "icone": "chat",
+              "t": "Dudas de proceso"
+            }
+          ],
+          "detalhe": "Cada agente tiene un área y un contrato escrito. Resuelve lo que está en la lista, te llama cuando sale de la lista y nunca hace lo irreversible sin confirmación."
+        },
+        {
+          "icone": "chat",
+          "titulo": "Equipo",
+          "sub": "Pide al agente",
+          "itens": [
+            {
+              "icone": "enviar",
+              "t": "Un canal fijo"
+            },
+            {
+              "icone": "relogio",
+              "t": "Respuesta al instante"
+            }
+          ],
+          "detalhe": "El equipo pide por el canal acordado y recibe respuesta sin esperar al dueño. Un pedido fuera del canal no se atiende: eso es lo que mantiene en pie la capa."
+        }
+      ],
+      "volta": "Cada viernes lees lo que se resolvió y ajustas los contratos",
+      "legenda": "Primero el orden, después el contexto y las reglas. Solo entonces el agente funciona bien.",
+      "rolagem": true,
+      "rolagem_fim": {
+        "titulo": "Las tres capas juntas",
+        "texto": "El equipo pide al agente, el agente resuelve o escala, y tú coordinas a los agentes en vez de responder cada pedido.",
+        "curto": "Tú coordinas; los agentes resuelven; el equipo pide."
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Del caos al primer agente",
+      "sub": "Siete pasos. Haz clic en cada uno.",
+      "passos": [
+        {
+          "titulo": "Inventario",
+          "sub": "5 días",
+          "texto": [
+            "Anota todo lo que te piden durante cinco días hábiles, una línea por pedido, con quién lo pidió.",
+            "No resuelvas nada distinto: el objetivo es ver el volumen real."
+          ],
+          "exemplo": {
+            "rot": "Línea del inventario",
+            "texto": "martes · finanzas · \"¿dónde está la factura de la herramienta de correo de septiembre?\""
+          }
+        },
+        {
+          "titulo": "Matriz",
+          "sub": "Eisenhower",
+          "texto": [
+            "Clasifica cada línea en cuatro grupos: urgente e importante, importante sin urgencia, urgente sin importancia, ni uno ni otro.",
+            "Urgente es lo que tiene plazo corto; importante es lo que mueve el resultado del negocio."
+          ],
+          "exemplo": {
+            "rot": "Clasificación",
+            "texto": "Bono nuevo en el CRM para mañana → urgente, no importante."
+          }
+        },
+        {
+          "titulo": "Elige 3",
+          "sub": "Del grupo correcto",
+          "texto": [
+            "Toma tres pedidos frecuentes del grupo \"urgente, no importante\". Esos van al primer agente.",
+            "Prefiere tareas con un paso a paso conocido: buscar una factura, dar de alta un acceso, responder una duda de proceso."
+          ]
+        },
+        {
+          "titulo": "Contrato",
+          "sub": "Por escrito",
+          "texto": [
+            "Escribe qué resuelve el agente solo, cuándo te llama a ti y qué nunca hace. Usa el modelo de abajo.",
+            "Un contrato corto funciona mejor que un manual largo: basta una página."
+          ]
+        },
+        {
+          "titulo": "Canal",
+          "sub": "Uno solo",
+          "texto": [
+            "Define un lugar fijo para los pedidos: un grupo, un bot en el chat, un correo.",
+            "Avisa al equipo con fecha de inicio. Un pedido que llegue por otro camino se redirige al canal."
+          ]
+        },
+        {
+          "titulo": "Confirmar",
+          "sub": "Lo irreversible",
+          "texto": [
+            "Compra, pago, envío al exterior y eliminación siempre se detienen en una pregunta: \"¿Confirmar?\".",
+            "El agente prepara; quien aprieta el botón eres tú."
+          ]
+        },
+        {
+          "titulo": "Viernes",
+          "sub": "Revisión",
+          "texto": [
+            "Lee el informe: qué se resolvió, qué se escaló, qué salió mal.",
+            "Cada error se vuelve una línea nueva en el contrato. Así mejora el agente."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "El contrato va en las instrucciones del agente. El mensaje va para el equipo.",
+      "blocos": [
+        {
+          "rot": "Contrato del agente",
+          "icone": "arquivo",
+          "conteudo": "AGENTE: <nombre> · área: <finanzas | personal | soporte>\n\nRESUELVE SOLO:\n- <tarea 1>  (ej.: localizar las facturas de las herramientas del mes)\n- <tarea 2>  (ej.: crear acceso de correo para un empleado nuevo)\n- <tarea 3>  (ej.: responder dudas sobre el proceso de reembolso)\n\nME LLAMA CUANDO:\n- involucre dinero por encima de R$ <valor>\n- la solicitud no esté en la lista de arriba\n- haya conflicto entre dos personas\n\nNUNCA:\n- pagar, comprar, borrar o enviar hacia afuera sin que yo haga clic en \"Confirmar\"\n- guardar contraseñas o datos de clientes en texto abierto\n- prometer plazos o valores en mi nombre\n\nCANAL: <dónde pide el equipo>\nINFORME: todos los viernes, una lista con resuelto / escalado / error"
+        },
+        {
+          "rot": "Mensaje para el equipo",
+          "icone": "megafone",
+          "conteudo": "A partir del <lunes, día/mes>, las solicitudes de <facturas, accesos y dudas de proceso>\nvan al <canal>. Quien responde es el asistente <nombre>, al instante.\nSi no sabe, me llama a mí. Las solicitudes de estos temas que lleguen por otro camino\nse redirigirán al canal."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Hazlo esta semana. Pasa a la clase 2 solo cuando los tres sean verdad.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Inventario en la matriz",
+          "min": "5 días",
+          "texto": "Anota las solicitudes que te llegan durante cinco días y clasifica cada una en los cuatro grupos de la matriz.",
+          "pronto": "la lista tiene al menos 15 solicitudes, cada una con el grupo de la matriz al lado."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Contrato escrito",
+          "min": "30 min",
+          "texto": "Copia el modelo y complétalo con las tres solicitudes elegidas del grupo \"urgente, no importante\".",
+          "pronto": "el contrato tiene 3 tareas en \"resuelve solo\", 3 ítems en \"nunca\" y el valor límite en reales."
+        },
+        {
+          "id": "e3",
+          "titulo": "3 · Equipo avisado",
+          "min": "10 min",
+          "texto": "Adapta el mensaje y envíalo en el canal del equipo.",
+          "pronto": "el mensaje salió con fecha de inicio, los temas y el canal."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "A las 18 h un empleado pide un bono nuevo en el CRM para mañana. ¿En qué grupo de la matriz cae?",
+          "opcoes": [
+            "Urgente e importante: tiene plazo y afecta al cliente",
+            "Urgente, no importante: va para el agente",
+            "Importante, no urgente: agendar para la semana"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Tiene plazo corto (urgente), pero no cambia el resultado del negocio (no importante). Es exactamente el tipo de solicitud que sale de ti y va para el agente. El error común es tratarlo como importante solo porque alguien tiene prisa."
+        },
+        {
+          "p": "¿Qué ítem NO debe estar en \"resuelve solo\" en el contrato?",
+          "opcoes": [
+            "Localizar las facturas de las herramientas del mes",
+            "Crear acceso de correo para un empleado nuevo",
+            "Pagar la factura del proveedor que venció hoy"
+          ],
+          "certa": 2,
+          "ref": "codigo",
+          "explica": "El pago es irreversible: el agente puede prepararlo, pero la decisión pasa por el botón \"Confirmar\". Buscar facturas y crear accesos tienen un paso a paso conocido y pueden quedar con el agente."
+        },
+        {
+          "p": "Un empleado manda la solicitud a tu WhatsApp personal en lugar del canal. ¿Qué haces?",
+          "opcoes": [
+            "Responder rápido por WhatsApp para no retrasar su trabajo",
+            "Redirigir al canal acordado",
+            "Reenviarla tú mismo al agente"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Si respondes o reenvías, vuelves a ser el filtro y la capa de agentes se desarma. Redirigir con amabilidad enseña el camino nuevo."
+        },
+        {
+          "p": "El agente cometió el mismo error dos veces esta semana. ¿Cuál es la corrección?",
+          "opcoes": [
+            "Una línea nueva en el contrato, en la revisión del viernes",
+            "Cambiar el agente por otro modelo de IA más caro y más nuevo",
+            "Volver a hacer la tarea tú mismo"
+          ],
+          "certa": 0,
+          "ref": "passos",
+          "explica": "El error repetido casi siempre es una regla que falta. La revisión del viernes convierte cada error en una línea del contrato. Cambiar el modelo antes de escribir la regla solo cambia el error de lugar."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Tres capas",
+          "texto": "Tú coordinas los agentes; los agentes atienden al equipo."
+        },
+        {
+          "t": "Primero la matriz",
+          "texto": "Lo que es urgente sin ser importante es el primer trabajo del agente."
+        },
+        {
+          "t": "Contrato corto",
+          "texto": "Resuelve solo, me llama cuando, nunca hace."
+        },
+        {
+          "t": "Botón de confirmar",
+          "texto": "Lo irreversible te espera a ti."
+        }
+      ]
+    }
+  ]
+}

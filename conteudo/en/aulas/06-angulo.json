@@ -1,0 +1,352 @@
+{
+  "slug": "angulo",
+  "num": 6,
+  "menu": "Angle",
+  "titulo": "One angle from the ad to the salesperson: congruence and selling by asking",
+  "titulo_curto": "The same angle",
+  "minutos": 17,
+  "lead": "A generic ad attracts generic people. When the ad speaks to one pain point, the landing page, the first message, and the salesperson have to speak to that same pain point. And the salesperson opens by asking, not presenting: \"juniors sell by talking; seniors sell by asking.\"",
+  "objetivo": "write three angles, each with an ad, a landing page headline, and the salesperson's opening question, all about the same pain point.",
+  "competencias": [
+    "escrever-angulos-de-anuncio",
+    "alinhar-funil-por-angulo",
+    "abrir-venda-com-pergunta"
+  ],
+  "aprende": [
+    {
+      "icone": "alvo",
+      "t": "What an angle is and why generic loses"
+    },
+    {
+      "icone": "seta",
+      "t": "One landing page, with text that changes based on utm_content"
+    },
+    {
+      "icone": "chat",
+      "t": "Support and sales with the context of the ad"
+    },
+    {
+      "icone": "usuario",
+      "t": "Open the call with a question"
+    }
+  ],
+  "hero_alt": "Two people talking at a coffee shop table, one of them taking notes in a notebook; neutral natural light.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The same angle in four places",
+      "sub": "Example: \"we renovate your property at no cost and become your tenant\". Click each step.",
+      "nos": [
+        {
+          "icone": "megafone",
+          "titulo": "Ad",
+          "sub": "The pain",
+          "itens": [
+            {
+              "icone": "alvo",
+              "t": "\"Does your property need a renovation?\""
+            }
+          ],
+          "detalhe": "The ad speaks to one concrete pain. Each angle has its own link with <code>utm_content</code> set to the angle's name."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "Landing",
+          "sub": "Same pain",
+          "itens": [
+            {
+              "icone": "seta",
+              "t": "The headline changes with utm_content"
+            }
+          ],
+          "detalhe": "Just one landing page. The headline and subheadline change based on utm_content (dynamic text replacement). Someone who came for the renovation reads about renovation."
+        },
+        {
+          "icone": "robo",
+          "titulo": "Customer service",
+          "sub": "Already knows",
+          "itens": [
+            {
+              "icone": "chat",
+              "t": "\"I saw you were interested in the renovation…\""
+            }
+          ],
+          "detalhe": "The angle goes into a CRM field. The assistant opens the conversation on the same topic and proposes the call."
+        },
+        {
+          "icone": "usuario",
+          "titulo": "Salesperson",
+          "sub": "Question",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "chat",
+              "t": "\"What caught your attention?\""
+            }
+          ],
+          "detalhe": "The salesperson reads the angle in the CRM and opens by asking. No generic introduction script."
+        }
+      ],
+      "legenda": "Work several angles, find the winner, and adapt the script to it."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Generic vs. angle",
+      "sub": "Examples for the same service.",
+      "passos": [
+        {
+          "titulo": "Generic",
+          "sub": "What not to do",
+          "texto": [
+            "\"Get your hair back. One more summer with confidence.\"",
+            "Nice, but it doesn't speak to the real fear of someone considering a hair transplant."
+          ]
+        },
+        {
+          "titulo": "Angle 1",
+          "sub": "No shaving",
+          "texto": [
+            "\"Hair transplant without shaving your head: in 10 days you're back at work and no one notices.\"",
+            "It speaks to the pain: not wanting to show up with a shaved head."
+          ]
+        },
+        {
+          "titulo": "Angle 2",
+          "sub": "All included",
+          "texto": [
+            "\"Hair transplant with flight and hotel included.\"",
+            "On the landing page, the page talks about travel; the salesperson knows the lead came for that."
+          ]
+        },
+        {
+          "titulo": "Selling by asking",
+          "sub": "Opening",
+          "texto": [
+            "Instead of introducing the company, ask: \"what caught your attention in the ad?\".",
+            "If the answer is the renovation: \"I understand the property is old. Is it rented out today?\""
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "simconversa",
+      "titulo": "Simulated call: the renovation lead",
+      "sub": "Simulated conversation for practice. Choose what you would say; the feedback appears right after.",
+      "personagem": {
+        "nome": "Owner of an apartment",
+        "papel": "came from the no-cost renovation ad"
+      },
+      "inicio": "abre",
+      "falas": {
+        "abre": {
+          "cliente": "Hi, did you call me? I left my contact on that ad.",
+          "opcoes": [
+            {
+              "t": "Yes! We're a company with 10 years in the market, we operate in three cities, and we have several services. Can I explain?",
+              "vai": "fim-generico",
+              "nota": 0,
+              "comenta": "You opened by talking about yourself. She came for a pain (the renovation), and you didn't touch on it."
+            },
+            {
+              "t": "I called, yes. What caught your attention in the ad?",
+              "vai": "reforma",
+              "nota": 2,
+              "comenta": "Open question, and in the right angle. Now she tells it in her own words."
+            },
+            {
+              "t": "I called. I saw you were interested in the free renovation, right?",
+              "vai": "reforma",
+              "nota": 1,
+              "comenta": "It's on the angle, but it's a yes-or-no question. She confirms and you're left with no information."
+            }
+          ]
+        },
+        "reforma": {
+          "cliente": "It's that the apartment is really old. It's been empty for four months and I don't have the money to renovate right now.",
+          "opcoes": [
+            {
+              "t": "Then it's perfect: we renovate and rent it out. Can I send you the contract?",
+              "vai": "fim-pressa",
+              "nota": 0,
+              "comenta": "You jumped to the close without knowing the size of the property or what she expects. A contract now scares her off."
+            },
+            {
+              "t": "Four months empty is a lot. What worries you more: the cost of the renovation or going without income?",
+              "vai": "medo",
+              "nota": 2,
+              "comenta": "You named her pain and asked her to choose. That's how you find out what really weighs on her."
+            },
+            {
+              "t": "How many bedrooms does the apartment have?",
+              "vai": "medo",
+              "nota": 1,
+              "comenta": "Useful information, but too early. Pain first, details after."
+            }
+          ]
+        },
+        "medo": {
+          "cliente": "Going without income. I count on that rent every month.",
+          "opcoes": [
+            {
+              "t": "That makes sense. Can I set up 15 minutes tomorrow to show you how payment works from the first month?",
+              "vai": "fim-bom",
+              "nota": 2,
+              "comenta": "You answered her pain (getting paid every month) and closed with a small, scheduled next step."
+            },
+            {
+              "t": "I understand. I'll send you a complete brochure by email.",
+              "vai": "fim-material",
+              "nota": 1,
+              "comenta": "Polite, but no date. A loose brochure usually goes unread."
+            },
+            {
+              "t": "Our edge is the quality of the finish.",
+              "vai": "fim-generico",
+              "nota": 0,
+              "comenta": "She said her fear is going without income, and you talked about the finish."
+            }
+          ]
+        },
+        "fim-generico": {
+          "fim": true,
+          "titulo": "She lost interest",
+          "texto": "The conversation drifted away from the angle that brought her in. Go back, open with a question, and stay on her pain."
+        },
+        "fim-pressa": {
+          "fim": true,
+          "titulo": "Closed too early",
+          "texto": "A proposal before you understand her fear turns into an objection. Ask one more question before you propose."
+        },
+        "fim-material": {
+          "fim": true,
+          "titulo": "Left hanging",
+          "texto": "With no scheduled next step, the lead goes cold. End with a date and time."
+        },
+        "fim-bom": {
+          "fim": true,
+          "titulo": "Meeting scheduled",
+          "texto": "You stayed on the angle, found the fear, and scheduled a small step. This is how the salesperson's script adapts to the winning angle."
+        }
+      },
+      "licao": "Open with a question, stay on the pain that brought the lead in, and end with a scheduled next step."
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "One block per angle. Three at minimum.",
+      "blocos": [
+        {
+          "rot": "Angle sheet",
+          "icone": "alvo",
+          "conteudo": "ANGLE: <short name>   utm_content=<short-name>\nPAIN (in the customer's words): \"<phrase they would say>\"\n\nAD · headline: <phrase with the pain>\nLANDING · headline: <the same pain + your solution>\nLANDING · subheadline: <proof or number>\nSUPPORT · first message: \"I saw you were interested in <pain>. <question>?\"\nSALESPERSON · opening: \"What caught your attention in the ad?\"\nSALESPERSON · second question: <question that digs deeper into the pain>\nNEXT STEP: <15-minute meeting, with a date>"
+        },
+        {
+          "rot": "Ad link with the angle",
+          "icone": "seta",
+          "conteudo": "https://yoursite.com/landing?utm_source=meta&utm_medium=paid&utm_campaign=<campaign>&utm_content=<angle>"
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Use a real service of yours or a client's.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Three angles",
+          "min": "40 min",
+          "texto": "Fill out the angle sheet three times, for three different pains of the same service.",
+          "pronto": "you have 3 sheets, each with the pain in quotes, the landing headline, and the opening question."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Simulated call",
+          "min": "10 min",
+          "texto": "Do this lesson's simulated call until you reach the top score.",
+          "pronto": "you reached the \"Meeting scheduled\" ending with the top score."
+        },
+        {
+          "id": "e3",
+          "titulo": "3 · Competitor's ad",
+          "min": "15 min",
+          "texto": "Open the Meta ad library, search for your industry, and pick a generic ad.",
+          "pronto": "you rewrote that ad's headline around a concrete pain."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions.",
+      "perguntas": [
+        {
+          "p": "You have three angles. Do you need three landing pages?",
+          "opcoes": [
+            "Yes, a separate page per angle, each with its own domain",
+            "No: one landing page with the text swapped by utm_content",
+            "No: one generic landing page works for all of them"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "One page, with the headline and subtitle swapped based on utm_content, keeps the message consistent without multiplying pages. The generic one loses that consistency."
+        },
+        {
+          "p": "Which call opening is the one used by someone who sells by asking questions?",
+          "opcoes": [
+            "\"We've been market leaders for 10 years.\"",
+            "\"Can I send you our presentation?\"",
+            "\"What caught your attention in the ad?\""
+          ],
+          "certa": 2,
+          "ref": "simconversa",
+          "explica": "The open question gets the customer to describe the pain in their own words. The others talk about the company or postpone the conversation."
+        },
+        {
+          "p": "Why store the angle in a CRM field?",
+          "opcoes": [
+            "So support and the salesperson talk about the same topic",
+            "So the monthly report looks more complete and nicer for the board",
+            "So the ad platform charges less"
+          ],
+          "certa": 0,
+          "ref": "diagrama",
+          "explica": "Without the angle in the CRM, the salesperson calls with a generic script and breaks the consistency that the ad and the landing page created."
+        },
+        {
+          "p": "\"Get your hair back, one more summer with confidence.\" What is missing from this ad?",
+          "opcoes": [
+            "A photo of a more famous celebrity",
+            "A discounted price highlighted right in the first line of the text",
+            "The real pain: not wanting to shave your head"
+          ],
+          "certa": 2,
+          "ref": "passos",
+          "explica": "The ad is pretty and generic. The strong angle names the concrete fear of the person deciding: showing up at work with a shaved head."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "The angle is the pain",
+          "texto": "A sentence the customer would say."
+        },
+        {
+          "t": "Consistency",
+          "texto": "Ad, landing page, support and salesperson talk about the same pain."
+        },
+        {
+          "t": "One landing page",
+          "texto": "The text changes based on utm_content."
+        },
+        {
+          "t": "Selling by asking",
+          "texto": "Open with a question and end with a set date."
+        }
+      ]
+    }
+  ]
+}

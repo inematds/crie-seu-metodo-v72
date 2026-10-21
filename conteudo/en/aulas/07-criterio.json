@@ -1,0 +1,246 @@
+{
+  "slug": "criterio",
+  "num": 7,
+  "menu": "Criteria",
+  "titulo": "Human judgment: the new-model test and your customer's sensitive data",
+  "titulo_curto": "Judgment and data",
+  "minutos": 15,
+  "lead": "If a new model comes out and your work disappears, you were working the tool. If a new model comes out and you just get faster, you were working your judgment. In this lesson you run that test, learn to separate sensitive data before plugging AI into your customer's information, and learn to prospect before you have social proof.",
+  "objetivo": "apply the new-model test to your work and sort a customer's data into three groups before plugging in the AI.",
+  "competencias": [
+    "aplicar-teste-do-modelo-novo",
+    "classificar-dados-sensiveis",
+    "prospectar-sem-prova-social"
+  ],
+  "aprende": [
+    {
+      "icone": "alvo",
+      "t": "The new-model test"
+    },
+    {
+      "icone": "relogio",
+      "t": "Draft the plan before running anything delicate"
+    },
+    {
+      "icone": "cadeado",
+      "t": "Three data groups: open, restricted, local"
+    },
+    {
+      "icone": "video",
+      "t": "Prospect with a case video and a landing page"
+    }
+  ],
+  "hero_alt": "Physical folders filed on a shelf in an architecture office, with one separate folder with a blank label.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Your customer's data in three groups",
+      "sub": "Case: an architecture firm with all its files on a local server (NAS). Click each group.",
+      "nos": [
+        {
+          "icone": "pasta",
+          "titulo": "Open",
+          "sub": "Cloud AI",
+          "itens": [
+            {
+              "icone": "arquivo",
+              "t": "Proposals and templates"
+            },
+            {
+              "icone": "calendario",
+              "t": "Calendar and emails"
+            }
+          ],
+          "detalhe": "The day-to-day data the company already accepts processing in the cloud, preferably on a business account with clear privacy terms. Here the agent works in its own folder."
+        },
+        {
+          "icone": "cadeado",
+          "titulo": "Restricted",
+          "sub": "Out of reach",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "escudo",
+              "t": "Confidential projects"
+            },
+            {
+              "icone": "grafico",
+              "t": "Partners' finances"
+            }
+          ],
+          "detalhe": "The core of the business: confidential projects, research, partners' data. It stays out of the folder the agent can see. Separate it before you connect, not after."
+        },
+        {
+          "icone": "chip",
+          "titulo": "Local",
+          "sub": "AI in-house",
+          "itens": [
+            {
+              "icone": "nuvem",
+              "t": "Open model on the client's server"
+            }
+          ],
+          "detalhe": "If the restricted data also needs AI, it runs on an open model on the client's own server. It costs more and is slower; it comes later, bit by bit."
+        }
+      ],
+      "legenda": "Give the client two options in writing: they own the data and are responsible for it, or they build it on your setup with clear rules."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Judgment before tools",
+      "sub": "Four habits.",
+      "passos": [
+        {
+          "titulo": "The test",
+          "sub": "New model",
+          "texto": [
+            "Ask yourself: if a model comes out tomorrow that does what I do, does my work disappear or get faster?",
+            "If it disappears, you sell a tool. If it speeds up, you sell judgment and method."
+          ]
+        },
+        {
+          "titulo": "Cooking",
+          "sub": "The plan",
+          "texto": [
+            "On a delicate topic (finance, sensitive data), spend hours on the plan before you execute.",
+            "Talk it through with an AI that has no context from the project, so you think from the outside, and only then build the plan with the agent that knows everything."
+          ]
+        },
+        {
+          "titulo": "Separate",
+          "sub": "The data",
+          "texto": [
+            "Before you connect the AI to the client's server, list the folders and mark each one: open, restricted or local.",
+            "Move the restricted data out of the folder the agent can see. Connecting first and separating later is too late."
+          ]
+        },
+        {
+          "titulo": "Prospect",
+          "sub": "No social proof",
+          "texto": [
+            "No testimonial yet? Record a short video explaining the case you handled and what changed for the client, without names.",
+            "Build a landing page with the video and a button for a 15-minute conversation. When you finish a project, ask for the testimonial."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The first one you answer yourself. The second goes to the client.",
+      "blocos": [
+        {
+          "rot": "New model test",
+          "icone": "alvo",
+          "conteudo": "WHAT I DELIVER TODAY (3 items):\n1. <deliverable>\n2. <deliverable>\n3. <deliverable>\n\nFOR EACH ONE: if tomorrow a new model does this on its own,\n[ ] it disappears   [ ] I get faster\n\nWHAT STAYS WITH ME ON ANY MODEL:\n- <judgment I apply: what to review, what to refuse, the order of the pieces>\n- <documented method>\n\nNEXT STEP: turn 1 \"disappears\" item into a method (lesson 5)."
+        },
+        {
+          "rot": "Sorting the client's folders",
+          "icone": "cadeado",
+          "conteudo": "CLIENT: <name>   SERVER: <NAS / cloud / mixed>   DATE: <dd/mm/yyyy>\n\nFOLDER                     | GROUP      | REASON\n/propostas                 | open       | commercial templates and proposals\n/projetos/<cliente-sigilo> | restricted | confidentiality agreement\n/financeiro/socios         | restricted | partners' personal data\n/pesquisa                  | local      | core of the business, needs AI\n\nCLIENT'S DECISION (signed):\n[ ] the client owns the data and is responsible for it; I apply the security\n[ ] built on my setup, with the rules above"
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Close out the course with these three.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · New model test",
+          "min": "15 min",
+          "texto": "Fill in the test with three of your own deliverables.",
+          "pronto": "each deliverable is marked \"disappears\" or \"I get faster\" and you wrote what stays with you."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · A client's folders",
+          "min": "30 min",
+          "texto": "Pick a client (or your own company) and sort the main folders into the three groups.",
+          "pronto": "the table has at least 6 folders, each with a group and a reason."
+        },
+        {
+          "id": "e3",
+          "titulo": "3 · Prospecting with the case",
+          "min": "40 min",
+          "texto": "Write the script for a video of up to 90 seconds about a case of yours: the problem, what you built, what changed.",
+          "pronto": "the script has all three parts, no client names, and ends with the invitation to a 15-minute call."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions.",
+      "perguntas": [
+        {
+          "p": "You sell automations on a workflow platform. An agent comes out that does the same thing on its own, and your orders drop. What does this show?",
+          "opcoes": [
+            "That you were working the tool, not the judgment",
+            "That you need to switch workflow platforms to a newer, more complete one",
+            "The AI market is about to crash"
+          ],
+          "certa": 0,
+          "ref": "passos",
+          "explica": "If your work disappears with the new model, the value was in the tool. The way out is to sell the judgment and the method that still hold up on any model."
+        },
+        {
+          "p": "The office wants the agent working on the NAS files, where confidential projects are also stored. What is the first step?",
+          "opcoes": [
+            "Connect everything at once and review folder access later",
+            "Separate the restricted files before connecting",
+            "Turn the client down: a NAS doesn't accept AI"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Once connected, the agent already sees everything. Separating first, with the client's decision in writing, is what protects the business's goodwill."
+        },
+        {
+          "p": "In which case is it worth spending hours on the plan before executing?",
+          "opcoes": [
+            "When creating this week's post for the company's social media",
+            "When renaming a file",
+            "When building the group's finance agent"
+          ],
+          "certa": 2,
+          "ref": "passos",
+          "explica": "A sensitive topic, with money and many sources, calls for judgment before execution. A simple, reversible task doesn't need hours of planning."
+        },
+        {
+          "p": "You don't have any testimonials yet. How do you prospect?",
+          "opcoes": [
+            "Wait for the first client to finish before starting",
+            "A short video of the case, with no names, on a landing page with a 15-minute invitation",
+            "Make up a testimonial for the website"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "The case told as problem, solution and result is already convincing, without exposing the client. Making up a testimonial is lying; waiting costs you months."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "The test",
+          "texto": "Does a new model wipe out your work or speed it up?"
+        },
+        {
+          "t": "Cook the plan",
+          "texto": "On sensitive work, hours of planning before execution."
+        },
+        {
+          "t": "Three groups",
+          "texto": "Open, restricted, local. Separate before you connect."
+        },
+        {
+          "t": "Order first",
+          "texto": "Then context and rules. That's when the AI does what it promises."
+        }
+      ]
+    }
+  ]
+}

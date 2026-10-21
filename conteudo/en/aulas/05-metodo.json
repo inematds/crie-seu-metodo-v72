@@ -1,0 +1,251 @@
+{
+  "slug": "metodo",
+  "num": 5,
+  "menu": "Method",
+  "titulo": "Where the money is: software became a commodity, the method didn't",
+  "titulo_curto": "Method > software",
+  "minutos": 16,
+  "lead": "Today an agent can reverse-engineer almost any software, and an automation takes minutes. Selling that on its own got cheap. What repeats and holds value is the method: lead generation, management and administration connected, documented and packaged to apply to any business.",
+  "objetivo": "document the parts of your lead generation method and write the step-by-step of one of them so you can repeat it in another business.",
+  "competencias": [
+    "mapear-negocio-em-tres-blocos",
+    "empacotar-metodo",
+    "documentar-runbook"
+  ],
+  "aprende": [
+    {
+      "icone": "camadas",
+      "t": "The three blocks of a business: lead generation, management, administration"
+    },
+    {
+      "icone": "alvo",
+      "t": "Find the real bottleneck"
+    },
+    {
+      "icone": "lista",
+      "t": "The parts of a lead generation method"
+    },
+    {
+      "icone": "arquivo",
+      "t": "Package and document: do it once, apply it always"
+    }
+  ],
+  "hero_alt": "Open dark-covered notebook with a hand-drawn flowchart, a pen beside it.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "A business in three blocks",
+      "sub": "Tap each block. The bottleneck is almost always in the first one.",
+      "nos": [
+        {
+          "icone": "megafone",
+          "titulo": "Lead generation",
+          "sub": "Bring in customers",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "alvo",
+              "t": "Ad and landing page"
+            },
+            {
+              "icone": "lista",
+              "t": "CRM and calls"
+            }
+          ],
+          "detalhe": "This is where most people have no method. The management platform looks great, but nobody can say where the next customer will come from."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Management",
+          "sub": "Deliver",
+          "itens": [
+            {
+              "icone": "check",
+              "t": "Automatic routine"
+            },
+            {
+              "icone": "robo",
+              "t": "Support agent"
+            }
+          ],
+          "detalhe": "Example of solved management: a property gets listed on the portals on its own, the tenant receives the rules when they move in, the maintenance technician sends the photo through the app, and the dashboard validates it. With the rules written down, an agent handles support."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Administrative",
+          "sub": "Bill and do the books",
+          "itens": [
+            {
+              "icone": "arquivo",
+              "t": "Billing and invoices"
+            },
+            {
+              "icone": "pasta",
+              "t": "Accounting"
+            }
+          ],
+          "detalhe": "Billing, invoices and accounting connected to the management system. Use an off-the-shelf accounting system and connect it; don't build your own."
+        }
+      ],
+      "volta": "With management and administrative solved, you are free to focus on lead generation",
+      "legenda": "Don't build a product just to build one: lean on ready-made tools (CRM, accounting) and spend your effort on the method."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "From software to method",
+      "sub": "Four ideas.",
+      "passos": [
+        {
+          "titulo": "Commodity",
+          "sub": "What got cheaper",
+          "texto": [
+            "Standalone automation is built in minutes with an agent. Software can be cloned by reverse engineering.",
+            "If your product is only that, the price will drop."
+          ]
+        },
+        {
+          "titulo": "Leverage",
+          "sub": "Use what's ready",
+          "texto": [
+            "For CRM, accounting and scheduling, there are ready-made tools. Connect them and customize.",
+            "Building your own CRM takes months that should go to lead generation."
+          ]
+        },
+        {
+          "titulo": "Method",
+          "sub": "What matters",
+          "texto": [
+            "A method is the sequence of pieces you apply the same way in any business: a real estate agency, a clinic, an office.",
+            "A well-built lead generation method runs the same in different businesses. The angle changes; the structure stays."
+          ]
+        },
+        {
+          "titulo": "Package",
+          "sub": "Do it once",
+          "texto": [
+            "Each piece has a written step-by-step (runbook) and, when possible, a ready-made skill or template for the agent.",
+            "At the end, a verifier agent checks that all the pieces are active."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The list is a starting point. Your method will have your own pieces.",
+      "blocos": [
+        {
+          "rot": "METODO.md · lead generation pieces",
+          "icone": "lista",
+          "conteudo": "# Lead generation method · <name of your method>\n\nAD AND PAGE\n[ ] 1. angles defined (at least 3), each with the customer's pain point\n[ ] 2. static ads per angle, in each format\n[ ] 3. landing page with text that changes according to the angle (utm_content)\n[ ] 4. UTMs and URLs generated by rule, never by hand\n\nCRM\n[ ] 5. landing page connected to the CRM, always with the same custom fields\n[ ] 6. opportunities that move through stages on their own based on events\n[ ] 7. conversion events sent back to the ad platform\n[ ] 8. service assistant that opens the conversation with the same angle\n\nSALES\n[ ] 9. call scheduling straight into the salesperson's calendar\n[ ] 10. call evaluator (score and reason for each call)\n[ ] 11. sales playbook that updates itself with the best calls\n\nCONTROL\n[ ] 12. agent that measures which angles work\n[ ] 13. verifier agent: are all the pieces active?\n\nEach piece has its own runbook in runbooks/<piece>.md"
+        },
+        {
+          "rot": "runbooks/[piece].md",
+          "icone": "arquivo",
+          "conteudo": "# Runbook · <name of the piece>\n\nWHAT IT'S FOR: <one line>\nINPUT: <what must exist beforehand>\nOUTPUT: <what exists afterward, and where>\n\nSTEP BY STEP\n1. <step>\n2. <step>\n3. <step>\n\nHOW TO CHECK: <what to look at to know it worked>\nERRORS ALREADY SEEN: <date · what went wrong · how to avoid it>"
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Think about the business you serve or want to serve.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Where the bottleneck is",
+          "min": "10 min",
+          "texto": "Write down the business's three blocks (lead generation, management, administrative) and give each a score from 0 to 10 for how organized it is.",
+          "pronto": "you have the three scores and can say which block is the bottleneck."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · METODO.md",
+          "min": "40 min",
+          "texto": "Copy the list of pieces, remove what doesn't fit, add what's yours, and mark what already exists.",
+          "pronto": "METODO.md has at least 8 pieces, each one marked as exists or missing."
+        },
+        {
+          "id": "e3",
+          "titulo": "3 · A runbook",
+          "min": "30 min",
+          "texto": "Pick a piece you already do and write its runbook using the template.",
+          "pronto": "the runbook has an input, an output, at least 3 steps, and a \"how to check\"."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions.",
+      "perguntas": [
+        {
+          "p": "A client has an excellent management platform but brings in little revenue. Where do you look first?",
+          "opcoes": [
+            "At the platform itself, to improve the screens and reports",
+            "At the accounting, to cut costs",
+            "At lead generation: where the next client comes from"
+          ],
+          "certa": 2,
+          "ref": "diagrama",
+          "explica": "Good management with no clients coming in doesn't bring in revenue. The common bottleneck is the lack of a lead-generation method, not the tool."
+        },
+        {
+          "p": "Is it worth building your own CRM for your method?",
+          "opcoes": [
+            "Yes, to have full control of the code and not depend on anyone",
+            "No: use an off-the-shelf one and put the effort into the method",
+            "Yes, because off-the-shelf CRMs don't connect to anything"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Off-the-shelf CRM and accounting tools connect and can be customized. What sets you apart is the sequence of pieces, not the software underneath."
+        },
+        {
+          "p": "What makes a piece of the method repeatable in another business?",
+          "opcoes": [
+            "A written runbook, with a \"how to check\" step",
+            "The memory of whoever did it the first time",
+            "A long video explaining the case"
+          ],
+          "certa": 0,
+          "ref": "codigo",
+          "explica": "Written down, with an input, output, steps, and a check, anyone or any agent can redo it. Memory walks out the door, and nobody follows a long video step by step."
+        },
+        {
+          "p": "What is the checker agent at the end of the method for?",
+          "opcoes": [
+            "To create new ads every day without needing you",
+            "To check that all the pieces are active",
+            "To replace the salesperson on calls"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "A method with thirteen pieces breaks silently (a wrong UTM, a field that disappeared). The checker warns you before the campaign loses money."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Three blocks",
+          "texto": "Lead generation, management, admin. The bottleneck is usually lead generation."
+        },
+        {
+          "t": "Use what's ready",
+          "texto": "Off-the-shelf CRM and accounting, connected."
+        },
+        {
+          "t": "The method is the asset",
+          "texto": "The same pieces, in any business; only the angle changes."
+        },
+        {
+          "t": "Package it",
+          "texto": "A runbook for each piece and a checker at the end."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "slug": "com-pincas",
+  "num": 4,
+  "menu": "Com pinças",
+  "titulo": "Tudo com pinças: o modelo de cada agente e a ferramenta que entra (ou não)",
+  "titulo_curto": "Modelos e ferramentas",
+  "minutos": 13,
+  "lead": "Toda semana aparece um repositório novo que promete tudo. Pegue com pinças: antes de instalar, pergunte à sua IA se aquilo encaixa no seu stack e o que ganha. E não use o mesmo modelo para tudo: cada agente pode ter o seu, entre o melhor, o econômico e o grátis.",
+  "objetivo": "escolher o modelo de cada agente por custo e tarefa e testar qualquer ferramenta nova contra o seu stack antes de instalar.",
+  "competencias": [
+    "escolher-modelo-por-agente",
+    "avaliar-ferramenta-contra-stack",
+    "pedir-segunda-opiniao"
+  ],
+  "aprende": [
+    {
+      "icone": "chip",
+      "t": "Três faixas de modelo: o melhor, o econômico e o grátis"
+    },
+    {
+      "icone": "lupa",
+      "t": "Quatro perguntas antes de instalar qualquer ferramenta"
+    },
+    {
+      "icone": "camadas",
+      "t": "Duas opiniões no tema delicado"
+    },
+    {
+      "icone": "relogio",
+      "t": "Por que o plano demora mais que a execução"
+    }
+  ],
+  "hero_alt": "Pinça de precisão sobre uma bancada clara, ao lado de uma placa de circuito pequena.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Ferramenta nova: entra ou fica fora?",
+      "sub": "Clique em cada etapa.",
+      "nos": [
+        {
+          "icone": "megafone",
+          "titulo": "Novidade",
+          "sub": "Alguém indicou",
+          "detalhe": "Um colega, um vídeo, um post: \"tem que usar isso\". Ainda não é decisão, é candidato."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "4 perguntas",
+          "sub": "À sua IA",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "camadas",
+              "t": "Encaixa no stack?"
+            },
+            {
+              "icone": "check",
+              "t": "Já tenho isso?"
+            },
+            {
+              "icone": "alvo",
+              "t": "O que ganho?"
+            },
+            {
+              "icone": "cadeado",
+              "t": "Qual o risco?"
+            }
+          ],
+          "detalhe": "Pergunte à IA que já conhece o seu contexto. Ferramenta em outra linguagem ou que repete o que você já tem costuma ficar de fora, por melhor que seja."
+        },
+        {
+          "icone": "check",
+          "titulo": "Entra",
+          "sub": "Teste pequeno",
+          "detalhe": "Passou nas quatro? Teste numa tarefa só, com prazo, antes de espalhar."
+        },
+        {
+          "icone": "x",
+          "titulo": "Fica fora",
+          "sub": "Registrado",
+          "detalhe": "Anote por que ficou fora. Quando indicarem de novo, a resposta já está escrita."
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "O modelo de cada agente",
+      "sub": "Três faixas. Os nomes mudam todo mês; o critério fica.",
+      "passos": [
+        {
+          "titulo": "O melhor",
+          "sub": "Onde erra caro",
+          "texto": [
+            "Programação, finanças e decisões com dinheiro pedem o modelo mais forte que o seu plano oferece.",
+            "O erro aqui custa mais que a diferença de preço."
+          ]
+        },
+        {
+          "titulo": "Econômico",
+          "sub": "Volume alto",
+          "texto": [
+            "Atendimento, triagem e resumo rodam muitas vezes por dia. Um modelo mais barato e rápido dá conta.",
+            "Teste com 20 casos reais antes de trocar."
+          ]
+        },
+        {
+          "titulo": "Grátis",
+          "sub": "Protótipo",
+          "texto": [
+            "Há modelos abertos e gratuitos com contexto enorme, bons para prototipar e para tarefas sem dado sensível.",
+            "Confira a política de dados do provedor: grátis às vezes quer dizer que seus dados treinam o modelo."
+          ]
+        },
+        {
+          "titulo": "Duas opiniões",
+          "sub": "Tema delicado",
+          "texto": [
+            "Num plano financeiro, peça a mesma análise a dois agentes de modelos diferentes, com o mesmo contexto, e compare.",
+            "Onde concordam, você ganha confiança; onde discordam, está a pergunta que você precisa fazer."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "Rode o primeiro na IA que já conhece o seu projeto.",
+      "blocos": [
+        {
+          "rot": "Prompt · a ferramenta encaixa?",
+          "icone": "lupa",
+          "conteudo": "Me indicaram esta ferramenta: <nome e link>.\nVocê conhece o meu stack (linguagens, serviços, o que já está rodando).\n\nResponda em até 10 linhas:\n1. ENCAIXA? Em que linguagem e infraestrutura ela roda, e isso conversa com o meu stack?\n2. JÁ TENHO? O que eu já uso que faz o mesmo ou quase.\n3. O QUE GANHO? Uma tarefa concreta que ficaria melhor, com um número se der.\n4. RISCO? Acesso a dados, manutenção, licença, dependência de terceiros.\n\nVeredito: ENTRA (teste de <prazo> numa tarefa) ou FICA FORA (motivo em 1 linha)."
+        },
+        {
+          "rot": "Registro de ferramentas",
+          "icone": "lista",
+          "conteudo": "DATA       | FERRAMENTA      | VEREDITO  | MOTIVO\n<dd/mm>    | <nome>          | fica fora | outra linguagem, repete o que o CRM já faz\n<dd/mm>    | <nome>          | entra     | teste de 2 semanas no agente de compras"
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "Use uma indicação real que você recebeu.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Avaliar uma ferramenta",
+          "min": "15 min",
+          "texto": "Pegue a última ferramenta ou repositório que te indicaram e rode o prompt na IA que conhece o seu projeto.",
+          "pronto": "você tem as 4 respostas e um veredito ENTRA ou FICA FORA anotado no registro."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Faixa de cada agente",
+          "min": "10 min",
+          "texto": "Volte ao mapa da orquestra (aula 3) e marque a faixa de cada agente: melhor, econômico ou grátis.",
+          "pronto": "cada agente do mapa tem uma faixa e o motivo em poucas palavras."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "4 perguntas.",
+      "perguntas": [
+        {
+          "p": "Um colega indica um repositório excelente, mas ele é todo em outra linguagem e repete o que seu sistema já faz. O que fazer?",
+          "opcoes": [
+            "Instalar: se é excelente, vale a pena",
+            "Reescrever seu sistema na linguagem dele",
+            "Deixar de fora e anotar o motivo no registro"
+          ],
+          "certa": 2,
+          "ref": "diagrama",
+          "explica": "Ferramenta boa que não encaixa no stack e repete o que você tem traz manutenção sem ganho. O registro evita refazer a análise quando indicarem de novo."
+        },
+        {
+          "p": "Qual agente merece o modelo mais forte?",
+          "opcoes": [
+            "O que resume as reuniões do dia",
+            "O que mexe no plano financeiro do grupo",
+            "O que responde a dúvidas frequentes"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Onde o erro custa caro (dinheiro, código em uso, decisão), pague pelo melhor. Resumo e dúvidas frequentes rodam muito e aceitam um modelo econômico."
+        },
+        {
+          "p": "Dois agentes com o mesmo contexto discordaram sobre o plano de caixa. Isso é ruim?",
+          "opcoes": [
+            "Não: a discordância mostra a pergunta a investigar",
+            "Sim: um dos dois agentes está quebrado e precisa sair da equipe",
+            "Sim: só vale usar um modelo por empresa"
+          ],
+          "certa": 0,
+          "ref": "passos",
+          "explica": "A segunda opinião existe para revelar pontos frágeis. Onde concordam, mais confiança; onde discordam, mais análise, sua e não deles."
+        },
+        {
+          "p": "Um modelo grátis tem contexto enorme. Qual o cuidado antes de usar?",
+          "opcoes": [
+            "Nenhum: grátis e com contexto grande é sempre a melhor escolha",
+            "Usar só para tarefas de finanças",
+            "Ler a política de dados e evitar dado sensível"
+          ],
+          "certa": 2,
+          "ref": "passos",
+          "explica": "Grátis pode significar que o provedor usa os seus dados. Ótimo para protótipo e tarefa sem dado sensível; não para a contabilidade do cliente."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {
+          "t": "Com pinças",
+          "texto": "Quatro perguntas antes de instalar: encaixa, já tenho, ganho, risco."
+        },
+        {
+          "t": "Três faixas",
+          "texto": "Melhor onde erra caro, econômico no volume, grátis no protótipo."
+        },
+        {
+          "t": "Duas opiniões",
+          "texto": "No tema delicado, compare dois modelos com o mesmo contexto."
+        },
+        {
+          "t": "Registro",
+          "texto": "O que ficou de fora fica anotado com o motivo."
+        }
+      ]
+    }
+  ]
+}
