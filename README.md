@@ -29,6 +29,12 @@ python3 gerar.py && python3 gerar.py --lang en && python3 gerar.py --lang es
 python3 validar.py --links
 ```
 
+## Mais no INEMA.CLUB
+
+- [Ficha completa deste curso](https://www.inema.club/cursos/386-crie-seu-metodo-gestao-com-agentes-e-o-metodo-que-vale-mais-que-o-software/)
+- [Guia: como aprender inteligência artificial](https://www.inema.club/aprender-inteligencia-artificial/)
+- [Todos os cursos](https://www.inema.club/cursos/)
+
 ---
 
 ## English
