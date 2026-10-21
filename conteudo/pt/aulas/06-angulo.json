@@ -276,6 +276,12 @@
       ]
     },
     {
+      "tipo": "video",
+      "titulo": "A aula 6 em vídeo",
+      "sub": "O mecanismo da aula explicado em cerca de dois minutos e meio.",
+      "chave": "csm-a6"
+    },
+    {
       "tipo": "quiz",
       "titulo": "Teste rápido",
       "sub": "4 perguntas.",

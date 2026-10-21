@@ -242,6 +242,12 @@
       ]
     },
     {
+      "tipo": "video",
+      "titulo": "Lesson 2 on video",
+      "sub": "The lesson's mechanism explained in about two and a half minutes.",
+      "chave": "csm-a2"
+    },
+    {
       "tipo": "quiz",
       "titulo": "Quick quiz",
       "sub": "4 questions.",

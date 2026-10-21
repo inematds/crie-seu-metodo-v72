@@ -173,6 +173,12 @@
       ]
     },
     {
+      "tipo": "video",
+      "titulo": "A aula 3 em vídeo",
+      "sub": "O mecanismo da aula explicado em cerca de dois minutos e meio.",
+      "chave": "csm-a3"
+    },
+    {
       "tipo": "quiz",
       "titulo": "Teste rápido",
       "sub": "4 perguntas.",

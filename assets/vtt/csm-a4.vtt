@@ -1,0 +1,316 @@
+WEBVTT
+
+00:00.000 --> 00:01.640
+Você vai parar de instalar tudo o
+
+00:01.640 --> 00:03.620
+que aparece e vai pagar caro só
+
+00:03.620 --> 00:04.900
+onde o erro custa caro.
+
+00:04.900 --> 00:06.760
+Toda semana surge um repositório novo que
+
+00:06.760 --> 00:08.180
+promete tudo, e alguém diz:
+
+00:08.180 --> 00:09.220
+tem que usar isso.
+
+00:09.220 --> 00:11.320
+Quem instala tudo acaba com manutenção sem
+
+00:11.320 --> 00:11.720
+ganho.
+
+00:11.720 --> 00:13.320
+Eu te mostro o filtro de quatro
+
+00:13.320 --> 00:14.920
+perguntas e as três faixas de modelo
+
+00:14.920 --> 00:16.060
+para cada agente.
+
+00:16.060 --> 00:17.620
+Ferramenta nova é candidato,
+
+00:17.620 --> 00:18.380
+não é decisão.
+
+00:18.380 --> 00:19.380
+Antes de instalar,
+
+00:19.380 --> 00:21.440
+pergunte à inteligência artificial que já conhece
+
+00:21.440 --> 00:22.220
+o seu contexto.
+
+00:22.220 --> 00:23.260
+Encaixa no meu stack?
+
+00:23.260 --> 00:24.140
+Já tenho isso?
+
+00:24.140 --> 00:24.820
+O que eu ganho?
+
+00:24.820 --> 00:25.640
+Qual é o risco?
+
+00:25.640 --> 00:26.600
+Passou nas quatro,
+
+00:26.600 --> 00:28.000
+entra, num teste pequeno,
+
+00:28.000 --> 00:29.440
+numa tarefa só e com prazo.
+
+00:29.440 --> 00:31.020
+Não passou, fica fora,
+
+00:31.020 --> 00:32.080
+e você anota o motivo.
+
+00:32.080 --> 00:33.480
+O prompt para copiar:
+
+00:33.480 --> 00:34.860
+me indicaram esta ferramenta,
+
+00:34.860 --> 00:36.100
+você conhece o meu stack,
+
+00:36.100 --> 00:37.900
+responda em até dez linhas.
+
+00:37.900 --> 00:38.820
+Um: encaixa?
+
+00:38.820 --> 00:41.510
+Em que linguagem e infraestrutura ela roda.
+
+00:41.510 --> 00:42.600
+Dois: já tenho?
+
+00:42.600 --> 00:43.700
+O que eu já uso que faz
+
+00:43.700 --> 00:44.330
+o mesmo.
+
+00:44.330 --> 00:45.380
+Três: o que ganho?
+
+00:45.380 --> 00:46.640
+Uma tarefa concreta,
+
+00:46.640 --> 00:47.800
+com número se der.
+
+00:47.800 --> 00:48.840
+Quatro: risco?
+
+00:48.840 --> 00:49.700
+Acesso a dados,
+
+00:49.700 --> 00:52.020
+manutenção, licença e dependência.
+
+00:52.020 --> 00:53.720
+E fecha com o veredito:
+
+00:53.720 --> 00:55.080
+entra, com prazo de teste,
+
+00:55.080 --> 00:55.900
+ou fica fora,
+
+00:55.900 --> 00:57.040
+com o motivo em uma linha.
+
+00:57.040 --> 00:57.980
+Um exemplo.
+
+00:57.980 --> 01:00.380
+Um colega indica um repositório excelente,
+
+01:00.380 --> 01:01.460
+só que ele é todo em outra
+
+01:01.460 --> 01:03.040
+linguagem e repete o que o seu
+
+01:03.040 --> 01:03.900
+sistema já faz.
+
+01:03.900 --> 01:05.040
+Por melhor que seja,
+
+01:05.040 --> 01:05.740
+fica de fora.
+
+01:05.740 --> 01:07.000
+E vai para o registro:
+
+01:07.000 --> 01:09.740
+data, ferramenta, veredito e motivo.
+
+01:09.740 --> 01:10.980
+Quando indicarem de novo,
+
+01:10.980 --> 01:12.340
+a resposta já está escrita.
+
+01:12.340 --> 01:14.220
+Outra ferramenta passa e entra:
+
+01:14.220 --> 01:15.880
+teste de duas semanas no agente de
+
+01:15.880 --> 01:16.700
+compras.
+
+01:16.700 --> 01:18.140
+Agora o modelo de cada agente.
+
+01:18.140 --> 01:20.040
+Não use o mesmo modelo para tudo.
+
+01:20.040 --> 01:21.180
+São três faixas.
+
+01:21.180 --> 01:23.140
+O melhor fica onde o erro custa
+
+01:23.140 --> 01:26.280
+caro: programação, finanças e decisões com dinheiro.
+
+01:26.280 --> 01:27.800
+Ali o erro custa mais que a
+
+01:27.800 --> 01:28.720
+diferença de preço.
+
+01:28.720 --> 01:30.380
+O econômico fica no volume:
+
+01:30.380 --> 01:32.560
+atendimento, triagem e resumo,
+
+01:32.560 --> 01:34.000
+que rodam o dia todo.
+
+01:34.000 --> 01:35.100
+Antes de trocar,
+
+01:35.100 --> 01:36.720
+teste com vinte casos reais.
+
+01:36.720 --> 01:38.520
+E o grátis fica no protótipo.
+
+01:38.520 --> 01:40.640
+Há modelos abertos e gratuitos com contexto
+
+01:40.640 --> 01:43.240
+enorme, bons para prototipar e para tarefa
+
+01:43.240 --> 01:44.120
+sem dado sensível.
+
+01:44.120 --> 01:45.600
+Mas leia a política de dados do
+
+01:45.600 --> 01:47.740
+provedor: grátis às vezes quer dizer que
+
+01:47.740 --> 01:49.320
+os seus dados treinam o modelo.
+
+01:49.320 --> 01:50.860
+Serve para o protótipo,
+
+01:50.860 --> 01:52.440
+não para a contabilidade do cliente.
+
+01:52.440 --> 01:54.220
+Os nomes dos modelos mudam todo mês;
+
+01:54.220 --> 01:55.140
+o critério fica.
+
+01:55.140 --> 01:56.280
+No tema delicado,
+
+01:56.280 --> 01:57.160
+peça duas opiniões.
+
+01:57.160 --> 01:58.320
+Num plano financeiro,
+
+01:58.320 --> 02:00.040
+mande a mesma análise para dois agentes
+
+02:00.040 --> 02:00.700
+de modelos diferentes,
+
+02:00.700 --> 02:01.820
+com o mesmo contexto,
+
+02:01.820 --> 02:02.620
+e compare.
+
+02:02.620 --> 02:04.740
+Onde concordam, você ganha confiança.
+
+02:04.740 --> 02:06.780
+Onde discordam, está a pergunta que você
+
+02:06.780 --> 02:07.340
+precisa fazer.
+
+02:07.340 --> 02:08.980
+A discordância não é defeito:
+
+02:08.980 --> 02:10.260
+mostra o ponto frágil.
+
+02:10.260 --> 02:11.520
+A prática tem duas partes.
+
+02:11.520 --> 02:13.660
+Primeiro, pegue a última ferramenta que te
+
+02:13.660 --> 02:15.120
+indicaram e rode o prompt.
+
+02:15.120 --> 02:16.780
+Está pronto quando você tem as quatro
+
+02:16.780 --> 02:19.240
+respostas e o veredito anotado no registro.
+
+02:19.240 --> 02:21.220
+Depois, volte ao mapa da orquestra da
+
+02:21.220 --> 02:22.820
+aula três e marque a faixa de
+
+02:22.820 --> 02:24.640
+cada agente, com o motivo em poucas
+
+02:24.640 --> 02:25.260
+palavras.
+
+02:25.260 --> 02:26.740
+A aula quatro tem o modelo para
+
+02:26.740 --> 02:27.940
+copiar e a prática,
+
+02:27.940 --> 02:30.107
+abertos e grátis no inema ponto club.

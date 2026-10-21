@@ -16,7 +16,72 @@
     "href": "aulas/metodo/"
   },
   "rodape": "INEMA.CLUB · open and free content · INEMA Learning v7.2 format · <a href=\"https://inema.club/\">inema.club</a> · <a href=\"https://www.inema.club/cursos/386-crie-seu-metodo-gestao-com-agentes-e-o-metodo-que-vale-mais-que-o-software/\">Full course page on INEMA.CLUB</a> · <a href=\"https://www.inema.club/aprender-inteligencia-artificial/\">Guide: how to learn artificial intelligence</a>",
-  "videos": {},
+  "videos": {
+    "csm-a2": {
+      "titulo": "Lesson 2 on video",
+      "duracao": "2 min 38 s",
+      "mp4": "https://github.com/inematds/crie-seu-metodo-v72/releases/download/video-v1.0.0/csm-a2.mp4",
+      "vtt": "assets/vtt/csm-a2.vtt",
+      "poster": "assets/img/videos/csm-a2.jpg",
+      "pagina": "https://www.youtube.com/watch?v=YLVpQ9-umAk"
+    },
+    "csm-a3": {
+      "titulo": "Lesson 3 on video",
+      "duracao": "2 min 22 s",
+      "mp4": "https://github.com/inematds/crie-seu-metodo-v72/releases/download/video-v1.0.0/csm-a3.mp4",
+      "vtt": "assets/vtt/csm-a3.vtt",
+      "poster": "assets/img/videos/csm-a3.jpg",
+      "pagina": "https://www.youtube.com/watch?v=NVNpwNvoUR8"
+    },
+    "csm-a4": {
+      "titulo": "Lesson 4 on video",
+      "duracao": "2 min 30 s",
+      "mp4": "https://github.com/inematds/crie-seu-metodo-v72/releases/download/video-v1.0.0/csm-a4.mp4",
+      "vtt": "assets/vtt/csm-a4.vtt",
+      "poster": "assets/img/videos/csm-a4.jpg",
+      "pagina": "https://www.youtube.com/watch?v=3Qk8oKy6Pbk"
+    },
+    "csm-a5": {
+      "titulo": "Lesson 5 on video",
+      "duracao": "2 min 30 s",
+      "mp4": "https://github.com/inematds/crie-seu-metodo-v72/releases/download/video-v1.0.0/csm-a5.mp4",
+      "vtt": "assets/vtt/csm-a5.vtt",
+      "poster": "assets/img/videos/csm-a5.jpg",
+      "pagina": "https://www.youtube.com/watch?v=_nwt2gZqeLM"
+    },
+    "csm-a6": {
+      "titulo": "Lesson 6 on video",
+      "duracao": "2 min 16 s",
+      "mp4": "https://github.com/inematds/crie-seu-metodo-v72/releases/download/video-v1.0.0/csm-a6.mp4",
+      "vtt": "assets/vtt/csm-a6.vtt",
+      "poster": "assets/img/videos/csm-a6.jpg",
+      "pagina": "https://www.youtube.com/watch?v=MOi5YX8CHSM"
+    },
+    "csm-a7": {
+      "titulo": "Lesson 7 on video",
+      "duracao": "2 min 24 s",
+      "mp4": "https://github.com/inematds/crie-seu-metodo-v72/releases/download/video-v1.0.0/csm-a7.mp4",
+      "vtt": "assets/vtt/csm-a7.vtt",
+      "poster": "assets/img/videos/csm-a7.jpg",
+      "pagina": "https://www.youtube.com/watch?v=GQXN8HxNkRw"
+    },
+    "csm-visao": {
+      "titulo": "The whole course on video",
+      "duracao": "2 min 47 s",
+      "mp4": "https://github.com/inematds/crie-seu-metodo-v72/releases/download/video-v1.0.0/csm-visao.mp4",
+      "vtt": "assets/vtt/csm-visao.vtt",
+      "poster": "assets/img/videos/csm-visao.jpg",
+      "pagina": "https://www.youtube.com/watch?v=pp_3giDnS1w"
+    },
+    "csm-a1": {
+      "titulo": "Lesson 1 on video",
+      "duracao": "2 min 14 s",
+      "mp4": "https://github.com/inematds/crie-seu-metodo-v72/releases/download/video-v1.0.0/csm-a1.mp4",
+      "vtt": "assets/vtt/csm-a1.vtt",
+      "poster": "assets/img/videos/csm-a1.jpg",
+      "pagina": "https://www.youtube.com/watch?v=9D1ANpJugn4"
+    }
+  },
   "inicio": {
     "kicker": "Course · 7 lessons · management with agents and method",
     "titulo": "If the next AI wipes out your work, you were polishing the tool",

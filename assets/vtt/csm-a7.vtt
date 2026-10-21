@@ -1,0 +1,280 @@
+WEBVTT
+
+00:00.000 --> 00:01.720
+Sai um modelo novo de inteligência artificial
+
+00:01.720 --> 00:03.560
+e o seu trabalho fica mais rápido,
+
+00:03.560 --> 00:04.520
+em vez de sumir.
+
+00:04.520 --> 00:06.120
+É isso que o critério te dá.
+
+00:06.120 --> 00:08.420
+O problema: muita gente vende ferramenta,
+
+00:08.420 --> 00:09.980
+e a próxima IA
+
+00:09.980 --> 00:11.740
+apaga o que ela vendia.
+
+00:11.740 --> 00:13.800
+E tem quem ligue a IA
+
+00:13.800 --> 00:15.560
+no servidor do cliente para só depois
+
+00:15.560 --> 00:17.160
+descobrir o que ela enxerga.
+
+00:17.160 --> 00:18.720
+Eu te mostro o teste do modelo
+
+00:18.720 --> 00:20.460
+novo e os três grupos de dados.
+
+00:20.460 --> 00:21.960
+O teste é uma pergunta:
+
+00:21.960 --> 00:23.520
+se amanhã sair um modelo que faz
+
+00:23.520 --> 00:24.280
+o que eu faço,
+
+00:24.280 --> 00:25.860
+o meu trabalho some ou fica mais
+
+00:25.860 --> 00:26.240
+rápido?
+
+00:26.240 --> 00:27.980
+Se some, você vende ferramenta.
+
+00:27.980 --> 00:30.360
+Se acelera, você vende critério e método.
+
+00:30.360 --> 00:32.680
+Quem vende automação numa plataforma de fluxos
+
+00:32.680 --> 00:34.860
+vê um agente fazer o mesmo sozinho,
+
+00:34.860 --> 00:35.960
+e os pedidos caem.
+
+00:35.960 --> 00:37.560
+O valor estava na ferramenta.
+
+00:37.560 --> 00:39.140
+O modelo para copiar é curto.
+
+00:39.140 --> 00:40.760
+Liste três entregas suas de hoje.
+
+00:40.760 --> 00:41.660
+Para cada uma,
+
+00:41.660 --> 00:43.940
+marque: some, ou fico mais rápido.
+
+00:43.940 --> 00:45.500
+Depois, escreva o que fica com você
+
+00:45.500 --> 00:46.280
+em qualquer modelo:
+
+00:46.280 --> 00:47.220
+o que revisar,
+
+00:47.220 --> 00:48.060
+o que recusar,
+
+00:48.060 --> 00:49.160
+a ordem das peças,
+
+00:49.160 --> 00:50.320
+o método documentado.
+
+00:50.320 --> 00:51.360
+E o próximo passo:
+
+00:51.360 --> 00:53.160
+transformar um item que some em método.
+
+00:53.160 --> 00:54.300
+Em tema delicado,
+
+00:54.300 --> 00:55.940
+como o financeiro ou dados sensíveis,
+
+00:55.940 --> 00:58.280
+gaste horas no plano antes de executar.
+
+00:58.280 --> 01:01.300
+Primeiro, discuta numa IA sem o contexto
+
+01:01.300 --> 01:02.640
+do projeto, para pensar de fora.
+
+01:02.640 --> 01:04.500
+Só depois monte o plano com o
+
+01:04.500 --> 01:05.560
+agente que conhece tudo.
+
+01:05.560 --> 01:07.480
+O agente financeiro do grupo pede isso.
+
+01:07.480 --> 01:08.800
+Trocar o nome de um arquivo,
+
+01:08.800 --> 01:08.920
+não.
+
+01:08.920 --> 01:10.560
+Agora os dados do cliente,
+
+01:10.560 --> 01:11.100
+em três grupos.
+
+01:11.100 --> 01:13.320
+O caso: um escritório de arquitetura com
+
+01:13.320 --> 01:14.860
+todos os arquivos num servidor local,
+
+01:14.860 --> 01:16.200
+um NAS.
+
+01:16.200 --> 01:18.500
+O grupo aberto é o dia a
+
+01:18.500 --> 01:20.840
+dia: propostas, agenda e e-mails.
+
+01:20.840 --> 01:23.080
+Vai para a IA na nuvem,
+
+01:23.080 --> 01:24.180
+numa conta empresarial.
+
+01:24.180 --> 01:26.000
+O grupo restrito é o fundo de
+
+01:26.000 --> 01:28.240
+comércio: projetos em sigilo e o financeiro
+
+01:28.240 --> 01:28.880
+dos sócios.
+
+01:28.880 --> 01:30.640
+Sai da pasta que o agente enxerga.
+
+01:30.640 --> 01:31.500
+E o grupo local:
+
+01:31.500 --> 01:34.140
+se o restrito também precisa de IA,
+
+01:34.140 --> 01:36.100
+ela roda num modelo aberto no servidor
+
+01:36.100 --> 01:36.680
+do cliente.
+
+01:36.680 --> 01:38.560
+É mais caro e mais lento,
+
+01:38.560 --> 01:39.440
+e vem depois.
+
+01:39.440 --> 01:41.660
+A regra é separar antes de conectar,
+
+01:41.660 --> 01:43.500
+porque depois o agente já enxerga tudo.
+
+01:43.500 --> 01:45.560
+Liste as pastas e marque cada uma
+
+01:45.560 --> 01:47.160
+com grupo e motivo.
+
+01:47.160 --> 01:48.200
+Propostas, aberto.
+
+01:48.200 --> 01:49.320
+O projeto em sigilo,
+
+01:49.320 --> 01:51.020
+restrito, por contrato.
+
+01:51.020 --> 01:52.180
+Pesquisa, local.
+
+01:52.180 --> 01:53.620
+E dê ao cliente duas opções por
+
+01:53.620 --> 01:55.600
+escrito: ele é dono e responsável pelos
+
+01:55.600 --> 01:57.340
+dados, ou monta na sua estrutura com
+
+01:57.340 --> 01:58.140
+regras claras.
+
+01:58.140 --> 01:59.440
+Ainda sem depoimento?
+
+01:59.440 --> 02:01.080
+Grave um vídeo de até noventa segundos
+
+02:01.080 --> 02:02.120
+sobre um caso seu:
+
+02:02.120 --> 02:03.940
+o problema, o que você montou e
+
+02:03.940 --> 02:04.500
+o que mudou,
+
+02:04.500 --> 02:05.280
+sem nomes.
+
+02:05.280 --> 02:06.980
+Monte uma landing com o vídeo e
+
+02:06.980 --> 02:08.320
+um convite para uma conversa de quinze
+
+02:08.320 --> 02:08.960
+minutos.
+
+02:08.960 --> 02:11.060
+Primeiro ordem, depois contexto e regras.
+
+02:11.060 --> 02:13.180
+Aí a IA faz o que promete.
+
+02:13.180 --> 02:14.760
+Na prática, a tabela de um cliente
+
+02:14.760 --> 02:16.280
+está pronta quando tem pelo menos seis
+
+02:16.280 --> 02:18.380
+pastas, cada uma com grupo e motivo.
+
+02:18.380 --> 02:19.900
+A aula sete tem os modelos para
+
+02:19.900 --> 02:21.280
+copiar e a prática,
+
+02:21.280 --> 02:23.707
+abertos e grátis no inema ponto club.

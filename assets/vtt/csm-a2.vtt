@@ -1,0 +1,334 @@
+WEBVTT
+
+00:00.000 --> 00:01.660
+A reunião acaba e as tarefas já
+
+00:01.660 --> 00:02.720
+estão no quadrante certo,
+
+00:02.720 --> 00:04.060
+com o documento anexado.
+
+00:04.060 --> 00:05.780
+E nada que gasta dinheiro sai sem
+
+00:05.780 --> 00:06.380
+o seu sim.
+
+00:06.380 --> 00:07.940
+O problema é o assistente que só
+
+00:07.940 --> 00:09.520
+conversa: você pergunta,
+
+00:09.520 --> 00:11.620
+ele responde, e a tarefa continua na
+
+00:11.620 --> 00:12.360
+sua cabeça.
+
+00:12.360 --> 00:13.700
+Eu vou te mostrar o caminho do
+
+00:13.700 --> 00:14.460
+pedido à ação,
+
+00:14.460 --> 00:16.520
+o prompt de triagem e o aviso
+
+00:16.520 --> 00:17.120
+do Google.
+
+00:17.120 --> 00:18.500
+Primeiro, o canal.
+
+00:18.500 --> 00:20.400
+Escolha um aplicativo de mensagem que aceite
+
+00:20.400 --> 00:21.560
+botões na conversa.
+
+00:21.560 --> 00:24.060
+O Telegram aceita botões e mini apps.
+
+00:24.060 --> 00:25.340
+O modelo é o mesmo;
+
+00:25.340 --> 00:26.800
+o que muda é a facilidade de
+
+00:26.800 --> 00:27.080
+aprovar.
+
+00:27.080 --> 00:29.700
+Você lê, toca em Confirmar e segue,
+
+00:29.700 --> 00:30.840
+sem sair do chat.
+
+00:30.840 --> 00:32.720
+O caminho tem quatro etapas.
+
+00:32.720 --> 00:34.620
+Na entrada, tudo que gera trabalho:
+
+00:34.620 --> 00:35.760
+o resumo da reunião,
+
+00:35.760 --> 00:37.080
+o e-mail que pede algo,
+
+00:37.080 --> 00:37.980
+o seu áudio.
+
+00:37.980 --> 00:39.000
+O assistente tria:
+
+00:39.000 --> 00:39.880
+tira a tarefa,
+
+00:39.880 --> 00:41.860
+põe no quadrante e anexa o documento.
+
+00:41.860 --> 00:43.180
+Se a ação é irreversível,
+
+00:43.180 --> 00:43.860
+para no botão.
+
+00:43.860 --> 00:44.660
+Depois do sim,
+
+00:44.660 --> 00:46.700
+ele executa e deixa um registro curto:
+
+00:46.700 --> 00:47.480
+o que fez,
+
+00:47.480 --> 00:49.080
+quando e com qual arquivo.
+
+00:49.080 --> 00:51.280
+O coração é o prompt de triagem.
+
+00:51.280 --> 00:52.160
+Linha a linha:
+
+00:52.160 --> 00:54.580
+liste cada tarefa com verbo no início.
+
+00:54.580 --> 00:55.480
+Escolha um quadrante.
+
+00:55.480 --> 00:57.320
+A é urgente e importante:
+
+00:57.320 --> 00:58.080
+faço hoje.
+
+00:58.080 --> 01:00.040
+B é importante e não urgente:
+
+01:00.040 --> 01:00.660
+agendo.
+
+01:00.660 --> 01:02.720
+C é urgente e não importante:
+
+01:02.720 --> 01:03.300
+delego.
+
+01:03.300 --> 01:04.620
+D: descarto.
+
+01:04.620 --> 01:06.100
+Escreva o motivo em uma linha:
+
+01:06.100 --> 01:06.800
+tem prazo?
+
+01:06.800 --> 01:08.920
+Afeta receita, cliente ou lei?
+
+01:08.920 --> 01:10.280
+Anexe o arquivo citado.
+
+01:10.280 --> 01:11.420
+E se envolver gastar,
+
+01:11.420 --> 01:12.960
+enviar para fora ou mexer na agenda
+
+01:12.960 --> 01:13.700
+de outra pessoa,
+
+01:13.700 --> 01:16.420
+não execute: mostre o botão Confirmar.
+
+01:16.420 --> 01:17.360
+Um exemplo.
+
+01:17.360 --> 01:18.780
+O sócio diz na reunião:
+
+01:18.780 --> 01:20.440
+revisa o contrato do parceiro novo quando
+
+01:20.440 --> 01:20.940
+der.
+
+01:20.940 --> 01:22.640
+Muita gente chama de urgente tudo que
+
+01:22.640 --> 01:23.340
+vem do sócio.
+
+01:23.340 --> 01:24.540
+O assistente responde:
+
+01:24.540 --> 01:27.120
+quadrante B, importante e não urgente.
+
+01:27.120 --> 01:28.800
+Motivo: afeta receita,
+
+01:28.800 --> 01:29.520
+sem prazo.
+
+01:29.520 --> 01:31.160
+Anexo: o contrato.
+
+01:31.160 --> 01:32.320
+Vai para a agenda,
+
+01:32.320 --> 01:33.000
+não para hoje.
+
+01:33.000 --> 01:34.560
+Agora a regra do botão.
+
+01:34.560 --> 01:36.320
+Pedem Confirmar: compra,
+
+01:36.320 --> 01:37.740
+com limite e cartão separado;
+
+01:37.740 --> 01:39.080
+mensagem para fora da empresa;
+
+01:39.080 --> 01:40.540
+convite de reunião para outra pessoa;
+
+01:40.540 --> 01:41.520
+e qualquer exclusão.
+
+01:41.520 --> 01:43.720
+São livres: criar tarefa para mim,
+
+01:43.720 --> 01:45.120
+buscar documento e anexar,
+
+01:45.120 --> 01:46.540
+avisar quando um preço baixar.
+
+01:46.540 --> 01:48.260
+E o aviso de app não verificado
+
+01:48.260 --> 01:48.560
+do Google.
+
+01:48.560 --> 01:50.460
+Para ler o Gmail e a agenda,
+
+01:50.460 --> 01:52.400
+o assistente usa um login do Google.
+
+01:52.400 --> 01:54.900
+Duas coisas disparam verificação.
+
+01:54.900 --> 01:56.820
+Logo ou nome na tela de consentimento
+
+01:56.820 --> 01:58.220
+pedem a verificação da marca,
+
+01:58.220 --> 02:00.340
+que leva de minutos a poucos dias.
+
+02:00.340 --> 02:02.380
+Ler o Gmail completo é acesso restrito
+
+02:02.380 --> 02:04.220
+e pede a verificação dos acessos,
+
+02:04.220 --> 02:05.800
+separada e mais longa.
+
+02:05.800 --> 02:07.200
+Corre a dica de que tirar o
+
+02:07.200 --> 02:08.500
+logo acaba com o aviso.
+
+02:08.500 --> 02:09.280
+Não acaba.
+
+02:09.280 --> 02:10.620
+Se o app lê o Gmail,
+
+02:10.620 --> 02:11.320
+o aviso continua,
+
+02:11.320 --> 02:13.400
+e o projeto fica limitado a cem
+
+02:13.400 --> 02:14.000
+usuários.
+
+02:14.000 --> 02:16.200
+Como fugir: uso pessoal ou interno da
+
+02:16.200 --> 02:17.060
+empresa é isento,
+
+02:17.060 --> 02:18.360
+marque o app como interno.
+
+02:18.360 --> 02:20.820
+Para vender, peça só os acessos mínimos
+
+02:20.820 --> 02:22.860
+e reserve tempo para a verificação antes
+
+02:22.860 --> 02:24.260
+de prometer data ao cliente.
+
+02:24.260 --> 02:26.300
+Está pronto quando você manda três entradas
+
+02:26.300 --> 02:27.460
+reais, uma reunião,
+
+02:27.460 --> 02:28.720
+um e-mail e um áudio,
+
+02:28.720 --> 02:30.380
+e concorda com pelo menos duas das
+
+02:30.380 --> 02:31.240
+três respostas.
+
+02:31.240 --> 02:32.940
+A aula dois tem o prompt e
+
+02:32.940 --> 02:33.920
+a regra para copiar,
+
+02:33.920 --> 02:34.840
+e a prática completa,
+
+02:34.840 --> 02:35.780
+abertos
+
+02:35.780 --> 02:37.393
+e grátis no inema ponto club.

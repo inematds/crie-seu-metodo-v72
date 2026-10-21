@@ -170,6 +170,12 @@
       ]
     },
     {
+      "tipo": "video",
+      "titulo": "La clase 7 en video",
+      "sub": "El mecanismo de la clase explicado en unos dos minutos y medio.",
+      "chave": "csm-a7"
+    },
+    {
       "tipo": "quiz",
       "titulo": "Prueba rápida",
       "sub": "4 preguntas.",

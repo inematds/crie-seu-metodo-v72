@@ -1,0 +1,292 @@
+WEBVTT
+
+00:00.000 --> 00:01.140
+Uma equipe de agentes,
+
+00:01.140 --> 00:02.300
+cada um na sua função,
+
+00:02.300 --> 00:04.100
+ligada vinte e quatro horas e com
+
+00:04.100 --> 00:05.040
+regras escritas.
+
+00:05.040 --> 00:06.820
+O problema é o assistente que sabe
+
+00:06.820 --> 00:07.820
+um pouco de tudo:
+
+00:07.820 --> 00:09.180
+ele mistura as empresas,
+
+00:09.180 --> 00:10.440
+perde o contexto e,
+
+00:10.440 --> 00:12.540
+quando programa, mexe onde não devia.
+
+00:12.540 --> 00:14.120
+Eu vou te mostrar a orquestra,
+
+00:14.120 --> 00:15.960
+como separar o contexto e as regras
+
+00:15.960 --> 00:16.920
+do agente que programa.
+
+00:16.920 --> 00:18.420
+O diretor de uma empresa é um
+
+00:18.420 --> 00:19.320
+maestro.
+
+00:19.320 --> 00:22.200
+Compras, marketing, comercial e financeiro tocam juntos,
+
+00:22.200 --> 00:23.100
+e ele coordena.
+
+00:23.100 --> 00:24.340
+Com agentes é igual.
+
+00:24.340 --> 00:25.980
+Você é o maestro.
+
+00:25.980 --> 00:26.900
+Abaixo de você,
+
+00:26.900 --> 00:28.440
+um coordenador recebe o pedido,
+
+00:28.440 --> 00:30.820
+decide qual especialista atende e devolve uma
+
+00:30.820 --> 00:31.480
+resposta só.
+
+00:31.480 --> 00:33.120
+Embaixo, um agente por função.
+
+00:33.120 --> 00:34.253
+Finanças
+
+00:34.253 --> 00:35.940
+lê faturamento, bancos e tesouraria.
+
+00:35.940 --> 00:37.720
+Programação trabalha no repositório.
+
+00:37.720 --> 00:39.060
+Dados cruza vendas,
+
+00:39.060 --> 00:40.240
+estoque e campanhas.
+
+00:40.240 --> 00:41.800
+E o comercial é um por empresa:
+
+00:41.800 --> 00:43.400
+sabe quem é quem na equipe,
+
+00:43.400 --> 00:45.920
+o produto e o CRM daquela empresa.
+
+00:45.920 --> 00:46.900
+Separe
+
+00:46.900 --> 00:48.060
+por função e por empresa.
+
+00:48.060 --> 00:50.120
+Um exemplo: um dono de clínicas que
+
+00:50.120 --> 00:51.180
+também tem uma imobiliária.
+
+00:51.180 --> 00:52.600
+Com um comercial único,
+
+00:52.600 --> 00:54.480
+o agente da clínica acaba citando imóvel.
+
+00:54.480 --> 00:55.720
+Com um por empresa,
+
+00:55.720 --> 00:56.900
+cada um fica mais preciso.
+
+00:56.900 --> 00:58.660
+E escreva a ordem das fontes da
+
+00:58.660 --> 01:00.440
+verdade: primeiro o repositório,
+
+01:00.440 --> 01:01.560
+depois a base de dados,
+
+01:01.560 --> 01:02.680
+depois a documentação.
+
+01:02.680 --> 01:04.760
+Agora as regras do agente que programa,
+
+01:04.760 --> 01:06.120
+as que mais evitam estrago.
+
+01:06.120 --> 01:07.240
+Antes de começar:
+
+01:07.240 --> 01:09.180
+git status e git pull no repositório
+
+01:09.180 --> 01:11.040
+certo, e nunca trabalhar direto no main.
+
+01:11.040 --> 01:12.700
+Durante: um ramo por tarefa,
+
+01:12.700 --> 01:14.060
+com nome curto em kebab-case,
+
+01:14.060 --> 01:15.413
+tipo corrige-boleto.
+
+01:15.413 --> 01:17.380
+Commits pequenos, com mensagem que diz o
+
+01:17.380 --> 01:17.780
+que mudou.
+
+01:17.780 --> 01:18.780
+Nada de senha,
+
+01:18.780 --> 01:20.520
+chave ou dado de cliente no repositório.
+
+01:20.520 --> 01:22.580
+No fim: abrir pull request com o
+
+01:22.580 --> 01:23.620
+que mudou e como testar.
+
+01:23.620 --> 01:24.860
+E nunca fazer o merge.
+
+01:24.860 --> 01:26.160
+Quem aprova é uma pessoa.
+
+01:26.160 --> 01:28.180
+Nome de ramo e mensagem organizam;
+
+01:28.180 --> 01:29.720
+o que impede código errado de chegar
+
+01:29.720 --> 01:31.600
+ao sistema em uso é a aprovação
+
+01:31.600 --> 01:32.640
+humana no pull request.
+
+01:32.640 --> 01:34.400
+E o jeito mais rápido de escrever
+
+01:34.400 --> 01:35.980
+as regras de um agente novo é
+
+01:35.980 --> 01:37.480
+pedir ao agente que já funciona:
+
+01:37.480 --> 01:39.600
+escreva as regras de como você trabalha
+
+01:39.600 --> 01:39.760
+comigo.
+
+01:39.760 --> 01:40.820
+Onde roda?
+
+01:40.820 --> 01:42.480
+Agente que atende a equipe tem de
+
+01:42.480 --> 01:43.880
+estar ligado quando você fecha o notebook.
+
+01:43.880 --> 01:45.240
+Um servidor alugado,
+
+01:45.240 --> 01:46.760
+uma VPS, resolve.
+
+01:46.760 --> 01:48.180
+Existem plataformas abertas,
+
+01:48.180 --> 01:49.320
+como o Hermes Agent,
+
+01:49.320 --> 01:50.840
+com perfis de agente e acesso pelo
+
+01:50.840 --> 01:51.340
+Telegram.
+
+01:51.340 --> 01:52.720
+Com uma dúzia de agentes,
+
+01:52.720 --> 01:54.680
+a memória costuma pedir oito gigas ou
+
+01:54.680 --> 01:55.040
+mais.
+
+01:55.040 --> 01:57.220
+E várias plataformas usam a assinatura que
+
+01:57.220 --> 01:57.800
+você já tem,
+
+01:57.800 --> 01:59.680
+em vez de chave de API cobrada
+
+01:59.680 --> 02:00.720
+por uso.
+
+02:00.720 --> 02:02.780
+Confira nos termos do plano se o
+
+02:02.780 --> 02:04.400
+uso automático é permitido.
+
+02:04.400 --> 02:05.140
+Comece no papel,
+
+02:05.140 --> 02:06.240
+com o mapa da orquestra:
+
+02:06.240 --> 02:09.140
+agente, função, fontes de contexto e modelo.
+
+02:09.140 --> 02:10.870
+Está pronto quando o mapa tem de
+
+02:10.870 --> 02:12.540
+três a cinco agentes e as regras
+
+02:12.540 --> 02:13.880
+estão salvas no repositório,
+
+02:13.880 --> 02:15.520
+com a regra nunca fazer o merge.
+
+02:15.520 --> 02:17.280
+A aula três tem o mapa e
+
+02:17.280 --> 02:18.280
+as regras para copiar,
+
+02:18.280 --> 02:19.520
+e a prática completa,
+
+02:19.520 --> 02:21.907
+abertos e grátis no inema ponto club.

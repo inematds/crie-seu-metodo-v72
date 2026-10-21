@@ -217,6 +217,18 @@
       ]
     },
     {
+      "tipo": "video",
+      "titulo": "La clase 1 en video",
+      "sub": "El mecanismo de la clase explicado en unos dos minutos y medio.",
+      "chave": "csm-a1"
+    },
+    {
+      "tipo": "video",
+      "titulo": "El curso entero en video",
+      "sub": "Las siete clases, lo que sales haciendo y por dónde empezar.",
+      "chave": "csm-visao"
+    },
+    {
       "tipo": "quiz",
       "titulo": "Prueba rápida",
       "sub": "4 preguntas. La explicación aparece después de tu intento.",

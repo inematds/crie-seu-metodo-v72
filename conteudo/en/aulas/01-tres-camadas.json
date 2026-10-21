@@ -217,6 +217,18 @@
       ]
     },
     {
+      "tipo": "video",
+      "titulo": "Lesson 1 on video",
+      "sub": "The lesson's mechanism explained in about two and a half minutes.",
+      "chave": "csm-a1"
+    },
+    {
+      "tipo": "video",
+      "titulo": "The whole course on video",
+      "sub": "The seven lessons, what you walk away doing and where to start.",
+      "chave": "csm-visao"
+    },
+    {
       "tipo": "quiz",
       "titulo": "Quick quiz",
       "sub": "4 questions. The explanation appears after you try.",

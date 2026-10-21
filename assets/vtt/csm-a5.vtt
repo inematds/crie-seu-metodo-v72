@@ -1,0 +1,292 @@
+WEBVTT
+
+00:00.000 --> 00:01.520
+Você vai transformar o que já faz
+
+00:01.520 --> 00:03.060
+num método que aplica em qualquer negócio,
+
+00:03.060 --> 00:05.140
+e que ninguém clona em minutos.
+
+00:05.140 --> 00:07.300
+Hoje um agente faz engenharia reversa de
+
+00:07.300 --> 00:08.180
+quase qualquer software,
+
+00:08.180 --> 00:10.240
+e uma automação sai em minutos.
+
+00:10.240 --> 00:11.900
+Vender isso solto ficou barato.
+
+00:11.900 --> 00:13.660
+Eu te mostro onde está o dinheiro:
+
+00:13.660 --> 00:15.160
+os três blocos do negócio,
+
+00:15.160 --> 00:16.740
+as peças do método e o runbook
+
+00:16.740 --> 00:18.080
+que torna tudo repetível.
+
+00:18.080 --> 00:19.660
+Começa pelo que barateou.
+
+00:19.660 --> 00:21.300
+Automação solta sai em minutos com um
+
+00:21.300 --> 00:21.780
+agente.
+
+00:21.780 --> 00:23.960
+Software pode ser clonado por engenharia reversa.
+
+00:23.960 --> 00:25.340
+Se o seu produto é só isso,
+
+00:25.340 --> 00:26.120
+o preço vai cair.
+
+00:26.120 --> 00:28.420
+Para CRM, contabilidade e agenda,
+
+00:28.420 --> 00:29.700
+existe ferramenta pronta:
+
+00:29.700 --> 00:31.340
+conecte e personalize.
+
+00:31.340 --> 00:33.080
+Construir o próprio CRM
+
+00:33.080 --> 00:34.640
+tira meses que deveriam ir para a
+
+00:34.640 --> 00:35.160
+captação.
+
+00:35.160 --> 00:36.740
+Todo negócio tem três blocos.
+
+00:36.740 --> 00:38.300
+Captação, que traz o cliente:
+
+00:38.300 --> 00:41.160
+anúncio, landing, CRM e ligação.
+
+00:41.160 --> 00:42.460
+Gestão, que entrega.
+
+00:42.460 --> 00:45.200
+E administrativo, que cobra e contabiliza,
+
+00:45.200 --> 00:46.720
+ligado ao sistema de gestão.
+
+00:46.720 --> 00:48.700
+O gargalo quase sempre está no primeiro.
+
+00:48.700 --> 00:50.620
+A plataforma de gestão está linda,
+
+00:50.620 --> 00:52.300
+mas ninguém sabe dizer de onde vem
+
+00:52.300 --> 00:53.120
+o próximo cliente.
+
+00:53.120 --> 00:54.620
+Um exemplo de gestão resolvida,
+
+00:54.620 --> 00:55.720
+numa imobiliária.
+
+00:55.720 --> 00:57.720
+O imóvel entra nos portais sozinho.
+
+00:57.720 --> 00:59.680
+O inquilino recebe as regras ao entrar.
+
+00:59.680 --> 01:01.360
+O técnico de manutenção manda a foto
+
+01:01.360 --> 01:02.880
+pelo app, e o painel valida.
+
+01:02.880 --> 01:04.060
+Com as regras escritas,
+
+01:04.060 --> 01:05.360
+um agente faz o suporte.
+
+01:05.360 --> 01:07.260
+Resolvido isso, você cuida da captação.
+
+01:07.260 --> 01:08.960
+Método é a sequência de peças que
+
+01:08.960 --> 01:10.420
+você aplica do mesmo jeito em qualquer
+
+01:10.420 --> 01:12.080
+negócio: imobiliária, clínica,
+
+01:12.080 --> 01:12.660
+escritório.
+
+01:12.660 --> 01:14.880
+Um método de captação bem montado roda
+
+01:14.880 --> 01:16.360
+igual em negócios diferentes.
+
+01:16.360 --> 01:17.140
+Muda o ângulo;
+
+01:17.140 --> 01:18.160
+a estrutura fica.
+
+01:18.160 --> 01:19.760
+As peças ficam num arquivo,
+
+01:19.760 --> 01:21.160
+o método ponto md.
+
+01:21.160 --> 01:23.200
+São treze, em quatro grupos.
+
+01:23.200 --> 01:24.200
+Anúncio e página:
+
+01:24.200 --> 01:25.900
+ângulos com a dor do cliente,
+
+01:25.900 --> 01:27.000
+anúncios por ângulo,
+
+01:27.000 --> 01:28.960
+landing com o texto que troca pelo
+
+01:28.960 --> 01:32.280
+utm content e UTMs geradas por regra,
+
+01:32.280 --> 01:33.940
+nunca à mão.
+
+01:33.940 --> 01:36.640
+CRM: landing ligada com os mesmos campos,
+
+01:36.640 --> 01:38.500
+oportunidades que andam sozinhas,
+
+01:38.500 --> 01:40.940
+eventos de conversão devolvidos ao anúncio e
+
+01:40.940 --> 01:42.480
+atendimento no mesmo ângulo.
+
+01:42.480 --> 01:44.780
+Venda: agendamento na agenda do vendedor,
+
+01:44.780 --> 01:46.760
+avaliador de ligações e playbook que se
+
+01:46.760 --> 01:47.380
+atualiza.
+
+01:47.380 --> 01:49.360
+Controle: um agente que mede os ângulos
+
+01:49.360 --> 01:50.440
+e um agente verificador,
+
+01:50.440 --> 01:52.220
+que confere se todas as peças estão
+
+01:52.220 --> 01:52.760
+ativas.
+
+01:52.760 --> 01:54.400
+Cada peça ganha um runbook,
+
+01:54.400 --> 01:55.580
+o passo a passo escrito.
+
+01:55.580 --> 01:56.260
+Para que serve,
+
+01:56.260 --> 01:57.320
+em uma linha.
+
+01:57.320 --> 01:59.380
+Entrada: o que precisa existir antes.
+
+01:59.380 --> 02:00.900
+Saída: o que existe depois,
+
+02:00.900 --> 02:01.520
+e onde.
+
+02:01.520 --> 02:02.420
+O passo a passo.
+
+02:02.420 --> 02:03.760
+Como conferir que funcionou.
+
+02:03.760 --> 02:04.980
+E os erros já vistos,
+
+02:04.980 --> 02:05.540
+com data.
+
+02:05.540 --> 02:08.200
+Escrito assim, qualquer pessoa ou agente refaz.
+
+02:08.200 --> 02:09.880
+A prática tem três partes.
+
+02:09.880 --> 02:11.040
+Dê uma nota de zero a dez
+
+02:11.040 --> 02:12.580
+para cada bloco do negócio que você
+
+02:12.580 --> 02:14.160
+atende e ache o gargalo.
+
+02:14.160 --> 02:15.320
+Copie a lista de peças,
+
+02:15.320 --> 02:16.720
+tire o que não serve e marque
+
+02:16.720 --> 02:17.180
+o que existe:
+
+02:17.180 --> 02:19.420
+está pronto quando o método ponto md
+
+02:19.420 --> 02:20.720
+tem pelo menos oito peças.
+
+02:20.720 --> 02:22.340
+E escreva o runbook de uma peça,
+
+02:22.340 --> 02:23.510
+com entrada, saída,
+
+02:23.510 --> 02:24.900
+três passos e como conferir.
+
+02:24.900 --> 02:26.380
+A aula cinco tem os modelos para
+
+02:26.380 --> 02:27.540
+copiar e a prática,
+
+02:27.540 --> 02:29.713
+abertos e grátis no inema ponto club.

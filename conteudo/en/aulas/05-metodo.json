@@ -175,6 +175,12 @@
       ]
     },
     {
+      "tipo": "video",
+      "titulo": "Lesson 5 on video",
+      "sub": "The lesson's mechanism explained in about two and a half minutes.",
+      "chave": "csm-a5"
+    },
+    {
       "tipo": "quiz",
       "titulo": "Quick quiz",
       "sub": "4 questions.",

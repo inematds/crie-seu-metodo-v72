@@ -217,6 +217,18 @@
       ]
     },
     {
+      "tipo": "video",
+      "titulo": "A aula 1 em vídeo",
+      "sub": "O mecanismo da aula explicado em cerca de dois minutos e meio.",
+      "chave": "csm-a1"
+    },
+    {
+      "tipo": "video",
+      "titulo": "O curso inteiro em vídeo",
+      "sub": "As sete aulas, o que você sai fazendo e por onde começar.",
+      "chave": "csm-visao"
+    },
+    {
       "tipo": "quiz",
       "titulo": "Teste rápido",
       "sub": "4 perguntas. A explicação aparece depois da sua tentativa.",
